@@ -1,0 +1,52 @@
+[0.019s] Invoking command in '/home/nuc/rm_vision_ws/build/armor_detector': AMENT_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nuc/rm_vision_ws/build/armor_detector -- -j16 -l16
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target armor_detector_node[0m
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target armor_detector[0m
+[0.093s] [ 13%] Built target gtest_main
+[0.096s] [ 26%] Built target gtest
+[0.096s] [ 40%] Built target armor_detector_node
+[0.100s] [ 46%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector_node.cpp.o[0m
+[26.843s] [32m[1mLinking CXX shared library libarmor_detector.so[0m
+[27.915s] Built target armor_detector
+[27.927s] [35m[1mConsolidate compiler generated dependencies of target test_number_cls[0m
+[27.927s] [35m[1mConsolidate compiler generated dependencies of target test_node_startup[0m
+[27.939s] [32m[1mLinking CXX executable test_node_startup[0m
+[27.939s] [32m[1mLinking CXX executable test_number_cls[0m
+[29.141s] Built target test_number_cls
+[29.152s] Built target test_node_startup
+[29.161s] Invoked command in '/home/nuc/rm_vision_ws/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nuc/rm_vision_ws/build/armor_detector -- -j16 -l16
+[29.195s] Invoking command in '/home/nuc/rm_vision_ws/build/armor_detector': AMENT_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nuc/rm_vision_ws/build/armor_detector
+[29.201s] -- Install configuration: ""
+[29.201s] -- Execute custom install script
+[29.201s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/lib/armor_detector/armor_detector_node
+[29.202s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/include/armor_detector/armor.hpp
+[29.202s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/include/armor_detector/detector.hpp
+[29.202s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/include/armor_detector/detector_node.hpp
+[29.202s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/include/armor_detector/number_classifier.hpp
+[29.202s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/include/armor_detector/pnp_solver.hpp
+[29.202s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/environment/library_path.sh
+[29.202s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/environment/library_path.dsv
+[29.202s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/lib/libarmor_detector.so
+[29.202s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/model/label.txt
+[29.202s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/model/mlp.onnx
+[29.202s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/ament_index/resource_index/package_run_dependencies/armor_detector
+[29.202s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/ament_index/resource_index/parent_prefix_path/armor_detector
+[29.203s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/environment/ament_prefix_path.sh
+[29.203s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/environment/ament_prefix_path.dsv
+[29.203s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/environment/path.sh
+[29.203s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/environment/path.dsv
+[29.203s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/local_setup.bash
+[29.203s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/local_setup.sh
+[29.203s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/local_setup.zsh
+[29.203s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/local_setup.dsv
+[29.203s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/package.dsv
+[29.209s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/ament_index/resource_index/packages/armor_detector
+[29.209s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/ament_index/resource_index/rclcpp_components/armor_detector
+[29.210s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.210s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.210s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[29.210s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig.cmake
+[29.210s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig-version.cmake
+[29.210s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/armor_detector/share/armor_detector/package.xml
+[29.212s] Invoked command in '/home/nuc/rm_vision_ws/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nuc/rm_vision_ws/build/armor_detector

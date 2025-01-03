@@ -1,0 +1,88 @@
+[0.037s] Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/hik_camera': CMAKE_PREFIX_PATH=/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake /home/rosnoetic/rm_shaobing_vision/src/ros2_hik_camera -DCMAKE_INSTALL_PREFIX=/home/rosnoetic/rm_shaobing_vision/install/hik_camera
+[0.151s] -- The C compiler identification is GNU 11.4.0
+[0.264s] -- The CXX compiler identification is GNU 11.4.0
+[0.275s] -- Detecting C compiler ABI info
+[0.404s] -- Detecting C compiler ABI info - done
+[0.412s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.412s] -- Detecting C compile features
+[0.413s] -- Detecting C compile features - done
+[0.416s] -- Detecting CXX compiler ABI info
+[0.562s] -- Detecting CXX compiler ABI info - done
+[0.571s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.572s] -- Detecting CXX compile features
+[0.572s] -- Detecting CXX compile features - done
+[0.574s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.804s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.086s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.089s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.099s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.116s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.138s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.201s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.204s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.388s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.425s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.480s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.490s] -- Looking for pthread.h
+[1.629s] -- Looking for pthread.h - found
+[1.630s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.767s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.767s] -- Found Threads: TRUE  
+[1.998s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.027s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.027s] -- Configured cppcheck include dirs: /home/rosnoetic/rm_shaobing_vision/src/ros2_hik_camera/hikSDK/include
+[2.027s] -- Configured cppcheck exclude dirs and/or files: 
+[2.027s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.028s] -- Added test 'lint_cmake' to check CMake code style
+[2.028s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.034s] -- Added test 'xmllint' to check XML markup files
+[2.034s] -- Configuring done
+[2.052s] -- Generating done
+[2.054s] -- Build files have been written to: /home/rosnoetic/rm_shaobing_vision/build/hik_camera
+[2.069s] Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake /home/rosnoetic/rm_shaobing_vision/src/ros2_hik_camera -DCMAKE_INSTALL_PREFIX=/home/rosnoetic/rm_shaobing_vision/install/hik_camera
+[2.072s] Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/hik_camera': CMAKE_PREFIX_PATH=/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/hik_camera -- -j16 -l16
+[2.174s] [ 50%] [32mBuilding CXX object CMakeFiles/hik_camera.dir/src/hik_camera_node.cpp.o[0m
+[2.174s] [ 50%] [32mBuilding CXX object CMakeFiles/hik_camera_node.dir/rclcpp_components/node_main_hik_camera_node.cpp.o[0m
+[14.059s] [ 75%] [32m[1mLinking CXX executable hik_camera_node[0m
+[14.355s] [ 75%] Built target hik_camera_node
+[14.409s] [100%] [32m[1mLinking CXX shared library libhik_camera.so[0m
+[14.643s] [100%] Built target hik_camera
+[14.667s] Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/hik_camera -- -j16 -l16
+[14.784s] Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/hik_camera': CMAKE_PREFIX_PATH=/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/hik_camera
+[14.797s] -- Install configuration: ""
+[14.798s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib
+[14.798s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib/libMvUsb3vTL.so
+[14.814s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib/libFormatConversion.so
+[14.814s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib/libMvCameraControl.so
+[14.815s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib/libMVRender.so
+[14.817s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib/libMediaProcess.so
+[14.821s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib/hik_camera/hik_camera_node
+[14.822s] -- Set runtime path of "/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib/hik_camera/hik_camera_node" to ""
+[14.822s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/environment/library_path.sh
+[14.822s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/environment/library_path.dsv
+[14.822s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib/libhik_camera.so
+[14.824s] -- Set runtime path of "/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib/libhik_camera.so" to ""
+[14.824s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/config
+[14.825s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/config/camera_info.yaml
+[14.825s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/config/camera_params.yaml
+[14.827s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/launch
+[14.827s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/launch/hik_camera.launch.py
+[14.827s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/ament_index/resource_index/package_run_dependencies/hik_camera
+[14.827s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/ament_index/resource_index/parent_prefix_path/hik_camera
+[14.827s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/environment/ament_prefix_path.sh
+[14.827s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/environment/ament_prefix_path.dsv
+[14.827s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/environment/path.sh
+[14.832s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/environment/path.dsv
+[14.832s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/local_setup.bash
+[14.832s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/local_setup.sh
+[14.832s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/local_setup.zsh
+[14.832s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/local_setup.dsv
+[14.833s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/package.dsv
+[14.833s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/ament_index/resource_index/packages/hik_camera
+[14.833s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/ament_index/resource_index/rclcpp_components/hik_camera
+[14.834s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.834s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[14.834s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/cmake/hik_cameraConfig.cmake
+[14.834s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/cmake/hik_cameraConfig-version.cmake
+[14.834s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/package.xml
+[14.841s] Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/hik_camera

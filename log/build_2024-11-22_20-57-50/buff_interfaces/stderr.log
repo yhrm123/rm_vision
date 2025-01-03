@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/rosnoetic/vision_ws/rm_shaobing_vision/build/buff_interfaces/CMakeCache.txt is different than the directory /home/nuc/rm_vision_ws/build/buff_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/home/nuc/rm_vision_ws/src/rm_buff/buff_interfaces" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:2043：cmake_check_build_system] 错误 1

@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target rm_serial_driver[0m
+[ 40%] Built target rm_serial_driver_node
+[ 60%] [32mBuilding CXX object CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o[0m
+[01m[K/home/nuc/rm_vision_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:[m[K In member function ‘[01m[Kvoid rm_serial_driver::RMSerialDriver::receiveData()[m[K’:
+[01m[K/home/nuc/rm_vision_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:106:26:[m[K [01;31m[Kerror: [m[Kunused variable ‘[01m[Kcrc_ok[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Werror=unused-variable]8;;[m[K]
+  106 |                     bool [01;31m[Kcrc_ok[m[K =
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/nuc/rm_vision_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:[m[K In member function ‘[01m[Kvoid rm_serial_driver::RMSerialDriver::sendData(auto_aim_interfaces::msg::Target_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/nuc/rm_vision_ws/src/rm_serial_driver/src/rm_serial_driver.cpp:176:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct auto_aim_interfaces::msg::Target_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct auto_aim_interfaces::msg::Target_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpitch[m[K’
+  176 |             packet.pitch = msg->[01;31m[Kpitch[m[K*1000;
+      |                                 [01;31m[K^~~~~[m[K
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/rm_serial_driver.dir/build.make:76：CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/rm_serial_driver.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

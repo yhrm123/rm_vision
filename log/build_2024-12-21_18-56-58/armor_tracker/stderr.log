@@ -1,0 +1,29 @@
+[01m[K/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:[m[K In member function ‘[01m[Kvoid rm_auto_aim::ArmorTrackerNode::armorsCallback(auto_aim_interfaces::msg::Armors_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:241:29:[m[K [01;31m[Kerror: [m[K‘[01m[KTimeSeries[m[K’ is not a member of ‘[01m[Kauto_aim_interfaces::msg[m[K’
+  241 |   auto_aim_interfaces::msg::[01;31m[KTimeSeries[m[K ts;
+      |                             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:242:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Target = struct auto_aim_interfaces::msg::Target_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct auto_aim_interfaces::msg::Target_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktimeseries[m[K’
+  242 |   int series_num = target_msg.[01;31m[Ktimeseries[m[K.size();
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:246:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Target = struct auto_aim_interfaces::msg::Target_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct auto_aim_interfaces::msg::Target_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktimeseries[m[K’
+  246 |     if(target_msg.[01;31m[Ktimeseries[m[K[series_num-1].header.stamp.sec - target_msg.timeseries[0].header.stamp.sec > 5)
+      |                   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:246:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Target = struct auto_aim_interfaces::msg::Target_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct auto_aim_interfaces::msg::Target_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktimeseries[m[K’
+  246 |     if(target_msg.timeseries[series_num-1].header.stamp.sec - target_msg.[01;31m[Ktimeseries[m[K[0].header.stamp.sec > 5)
+      |                                                                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:248:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Target = struct auto_aim_interfaces::msg::Target_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct auto_aim_interfaces::msg::Target_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktimeseries[m[K’
+  248 |       target_msg.[01;31m[Ktimeseries[m[K.clear();
+      |                  [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:253:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Target = struct auto_aim_interfaces::msg::Target_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct auto_aim_interfaces::msg::Target_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktimeseries[m[K’
+  253 |   target_msg.[01;31m[Ktimeseries[m[K[series_num-1].header.stamp = time;
+      |              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:297:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kts[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+  297 |       [01;31m[Kts[m[K.x = target_msg.position.x;
+      |       [01;31m[K^~[m[K
+      |       [32m[Ktm[m[K
+[01m[K/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:300:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Target = struct auto_aim_interfaces::msg::Target_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct auto_aim_interfaces::msg::Target_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktimeseries[m[K’
+  300 |       target_msg.[01;31m[Ktimeseries[m[K.emplace_back(ts);
+      |                  [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/armor_tracker.dir/build.make:104：CMakeFiles/armor_tracker.dir/src/tracker_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/armor_tracker.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

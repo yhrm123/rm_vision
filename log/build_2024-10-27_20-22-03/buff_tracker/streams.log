@@ -1,0 +1,39 @@
+[0.016s] Invoking command in '/home/nuc/rm_vision_ws/build/buff_tracker': AMENT_PREFIX_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuc/rm_vision_ws/install/buff_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nuc/rm_vision_ws/build/buff_tracker -- -j16 -l16
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target buff_tracker_node[0m
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target buff_tracker[0m
+[0.082s] [ 28%] Built target buff_tracker_node
+[0.093s] [ 42%] [32mBuilding CXX object CMakeFiles/buff_tracker.dir/src/tracker_node.cpp.o[0m
+[21.901s] [32m[1mLinking CXX shared library libbuff_tracker.so[0m
+[23.449s] Built target buff_tracker
+[23.461s] Invoked command in '/home/nuc/rm_vision_ws/build/buff_tracker' returned '0': AMENT_PREFIX_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuc/rm_vision_ws/install/buff_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nuc/rm_vision_ws/build/buff_tracker -- -j16 -l16
+[23.499s] Invoking command in '/home/nuc/rm_vision_ws/build/buff_tracker': AMENT_PREFIX_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuc/rm_vision_ws/install/buff_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nuc/rm_vision_ws/build/buff_tracker
+[23.507s] -- Install configuration: ""
+[23.507s] -- Execute custom install script
+[23.508s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/lib/buff_tracker/buff_tracker_node
+[23.508s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/include/buff_tracker/extended_kalman_filter.hpp
+[23.508s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/include/buff_tracker/gauss_newton_solver.hpp
+[23.508s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/include/buff_tracker/tracker.hpp
+[23.509s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/include/buff_tracker/tracker_node.hpp
+[23.509s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/buff_tracker/environment/library_path.sh
+[23.509s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/buff_tracker/environment/library_path.dsv
+[23.509s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/lib/libbuff_tracker.so
+[23.509s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/ament_index/resource_index/package_run_dependencies/buff_tracker
+[23.509s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/ament_index/resource_index/parent_prefix_path/buff_tracker
+[23.510s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/buff_tracker/environment/ament_prefix_path.sh
+[23.510s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/buff_tracker/environment/ament_prefix_path.dsv
+[23.510s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/buff_tracker/environment/path.sh
+[23.510s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/buff_tracker/environment/path.dsv
+[23.510s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/buff_tracker/local_setup.bash
+[23.510s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/buff_tracker/local_setup.sh
+[23.511s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/buff_tracker/local_setup.zsh
+[23.511s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/buff_tracker/local_setup.dsv
+[23.511s] -- Symlinking: /home/nuc/rm_vision_ws/install/buff_tracker/share/buff_tracker/package.dsv
+[23.522s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/ament_index/resource_index/packages/buff_tracker
+[23.522s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/ament_index/resource_index/rclcpp_components/buff_tracker
+[23.522s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/buff_tracker/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.522s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/buff_tracker/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.522s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/buff_tracker/cmake/ament_cmake_export_libraries-extras.cmake
+[23.522s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/buff_tracker/cmake/buff_trackerConfig.cmake
+[23.522s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/buff_tracker/cmake/buff_trackerConfig-version.cmake
+[23.522s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/buff_tracker/share/buff_tracker/package.xml
+[23.525s] Invoked command in '/home/nuc/rm_vision_ws/build/buff_tracker' returned '0': AMENT_PREFIX_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuc/rm_vision_ws/install/buff_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nuc/rm_vision_ws/build/buff_tracker

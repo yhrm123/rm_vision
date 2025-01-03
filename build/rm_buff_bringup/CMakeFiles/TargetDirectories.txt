@@ -1,0 +1,9 @@
+/home/rosnoetic/rm_shaobing_vision/build/rm_buff_bringup/CMakeFiles/uninstall.dir
+/home/rosnoetic/rm_shaobing_vision/build/rm_buff_bringup/CMakeFiles/rm_buff_bringup_uninstall.dir
+/home/rosnoetic/rm_shaobing_vision/build/rm_buff_bringup/CMakeFiles/test.dir
+/home/rosnoetic/rm_shaobing_vision/build/rm_buff_bringup/CMakeFiles/edit_cache.dir
+/home/rosnoetic/rm_shaobing_vision/build/rm_buff_bringup/CMakeFiles/rebuild_cache.dir
+/home/rosnoetic/rm_shaobing_vision/build/rm_buff_bringup/CMakeFiles/list_install_components.dir
+/home/rosnoetic/rm_shaobing_vision/build/rm_buff_bringup/CMakeFiles/install.dir
+/home/rosnoetic/rm_shaobing_vision/build/rm_buff_bringup/CMakeFiles/install/local.dir
+/home/rosnoetic/rm_shaobing_vision/build/rm_buff_bringup/CMakeFiles/install/strip.dir

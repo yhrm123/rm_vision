@@ -1,0 +1,44 @@
+[0.043s] Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description': CMAKE_PREFIX_PATH=/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake /home/rosnoetic/rm_shaobing_vision/src/rm_gimbal_description -DCMAKE_INSTALL_PREFIX=/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description
+[0.158s] -- The C compiler identification is GNU 11.4.0
+[0.248s] -- The CXX compiler identification is GNU 11.4.0
+[0.261s] -- Detecting C compiler ABI info
+[0.389s] -- Detecting C compiler ABI info - done
+[0.402s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.403s] -- Detecting C compile features
+[0.403s] -- Detecting C compile features - done
+[0.405s] -- Detecting CXX compiler ABI info
+[0.553s] -- Detecting CXX compiler ABI info - done
+[0.562s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.564s] -- Detecting CXX compile features
+[0.564s] -- Detecting CXX compile features - done
+[0.569s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.794s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.924s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.039s] -- Added test 'lint_cmake' to check CMake code style
+[1.040s] -- Added test 'xmllint' to check XML markup files
+[1.042s] -- Configuring done
+[1.045s] -- Generating done
+[1.047s] -- Build files have been written to: /home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description
+[1.053s] Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake /home/rosnoetic/rm_shaobing_vision/src/rm_gimbal_description -DCMAKE_INSTALL_PREFIX=/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description
+[1.057s] Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description': CMAKE_PREFIX_PATH=/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description -- -j16 -l16
+[1.131s] Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description -- -j16 -l16
+[1.218s] Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description': CMAKE_PREFIX_PATH=/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description
+[1.232s] -- Install configuration: ""
+[1.232s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/urdf
+[1.232s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/urdf/rm_gimbal.urdf.xacro
+[1.232s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/ament_index/resource_index/package_run_dependencies/rm_gimbal_description
+[1.233s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/ament_index/resource_index/parent_prefix_path/rm_gimbal_description
+[1.233s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/environment/ament_prefix_path.sh
+[1.233s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/environment/ament_prefix_path.dsv
+[1.234s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/environment/path.sh
+[1.234s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/environment/path.dsv
+[1.234s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.bash
+[1.235s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.sh
+[1.235s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.zsh
+[1.235s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/local_setup.dsv
+[1.235s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/package.dsv
+[1.235s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/ament_index/resource_index/packages/rm_gimbal_description
+[1.235s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/cmake/rm_gimbal_descriptionConfig.cmake
+[1.236s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/cmake/rm_gimbal_descriptionConfig-version.cmake
+[1.236s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/package.xml
+[1.239s] Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description

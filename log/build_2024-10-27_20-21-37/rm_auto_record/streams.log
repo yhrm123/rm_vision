@@ -1,0 +1,83 @@
+[0.013s] Invoking command in '/home/nuc/rm_vision_ws/build/rm_auto_record': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nuc/rm_vision_ws/src/rm_auto_record -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuc/rm_vision_ws/install/rm_auto_record
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.111s] -- The CXX compiler identification is GNU 11.4.0
+[0.118s] -- Detecting C compiler ABI info
+[0.175s] -- Detecting C compiler ABI info - done
+[0.183s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.183s] -- Detecting C compile features
+[0.183s] -- Detecting C compile features - done
+[0.186s] -- Detecting CXX compiler ABI info
+[0.255s] -- Detecting CXX compiler ABI info - done
+[0.263s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.263s] -- Detecting CXX compile features
+[0.263s] -- Detecting CXX compile features - done
+[0.265s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.382s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.426s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.519s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.522s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.527s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.535s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.546s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.572s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.574s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.638s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.664s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.691s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.699s] -- Looking for pthread.h
+[0.764s] -- Looking for pthread.h - found
+[0.765s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.829s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.830s] -- Found Threads: TRUE  
+[0.919s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.933s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.933s] -- Configured cppcheck include dirs: /home/nuc/rm_vision_ws/src/rm_auto_record/include
+[0.933s] -- Configured cppcheck exclude dirs and/or files: 
+[0.935s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.935s] -- Configured cpplint exclude dirs and/or files: 
+[0.936s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.937s] -- Added test 'lint_cmake' to check CMake code style
+[0.937s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.937s] -- Added test 'xmllint' to check XML markup files
+[0.938s] -- Configuring done
+[0.947s] -- Generating done
+[0.947s] -- Build files have been written to: /home/nuc/rm_vision_ws/build/rm_auto_record
+[0.956s] Invoked command in '/home/nuc/rm_vision_ws/build/rm_auto_record' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nuc/rm_vision_ws/src/rm_auto_record -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuc/rm_vision_ws/install/rm_auto_record
+[0.957s] Invoking command in '/home/nuc/rm_vision_ws/build/rm_auto_record': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nuc/rm_vision_ws/build/rm_auto_record -- -j16 -l16
+[0.999s] [ 25%] [32mBuilding CXX object CMakeFiles/rm_auto_record.dir/src/record_node.cpp.o[0m
+[1.001s] [ 50%] [32mBuilding CXX object CMakeFiles/rm_auto_record_node.dir/rclcpp_components/node_main_rm_auto_record_node.cpp.o[0m
+[7.407s] [ 75%] [32m[1mLinking CXX executable rm_auto_record_node[0m
+[7.597s] [ 75%] Built target rm_auto_record_node
+[23.626s] [100%] [32m[1mLinking CXX shared library librm_auto_record.so[0m
+[24.461s] [100%] Built target rm_auto_record
+[24.474s] Invoked command in '/home/nuc/rm_vision_ws/build/rm_auto_record' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nuc/rm_vision_ws/build/rm_auto_record -- -j16 -l16
+[24.501s] Invoking command in '/home/nuc/rm_vision_ws/build/rm_auto_record': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nuc/rm_vision_ws/build/rm_auto_record
+[24.509s] -- Install configuration: ""
+[24.510s] -- Execute custom install script
+[24.510s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/lib/rm_auto_record/rm_auto_record_node
+[24.521s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/include/rm_auto_record/record_node.hpp
+[24.531s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/environment/library_path.sh
+[24.540s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/environment/library_path.dsv
+[24.549s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/lib/librm_auto_record.so
+[24.560s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/config/node_params.yaml
+[24.569s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/launch/auto_record.launch.py
+[24.578s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/ament_index/resource_index/package_run_dependencies/rm_auto_record
+[24.589s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/ament_index/resource_index/parent_prefix_path/rm_auto_record
+[24.598s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/environment/ament_prefix_path.sh
+[24.609s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/environment/ament_prefix_path.dsv
+[24.618s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/environment/path.sh
+[24.629s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/environment/path.dsv
+[24.639s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/local_setup.bash
+[24.649s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/local_setup.sh
+[24.659s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/local_setup.zsh
+[24.668s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/local_setup.dsv
+[24.677s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/package.dsv
+[24.687s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/ament_index/resource_index/packages/rm_auto_record
+[24.697s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/ament_index/resource_index/rclcpp_components/rm_auto_record
+[24.708s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.718s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.728s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/cmake/ament_cmake_export_libraries-extras.cmake
+[24.738s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/cmake/rm_auto_recordConfig.cmake
+[24.747s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/cmake/rm_auto_recordConfig-version.cmake
+[24.756s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_auto_record/share/rm_auto_record/package.xml
+[24.767s] Invoked command in '/home/nuc/rm_vision_ws/build/rm_auto_record' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nuc/rm_vision_ws/build/rm_auto_record

@@ -1,0 +1,341 @@
+[0.062s] Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces -- -j16 -l16
+[0.114s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.333s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.343s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.360s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.462s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.554s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.122s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.503s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.982s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.019s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.058s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.058s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.058s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.141s] -- Configuring done
+[2.223s] -- Generating done
+[2.235s] -- Build files have been written to: /home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces
+[2.291s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_generator_c[0m
+[2.314s] [  0%] Built target auto_aim_interfaces__cpp
+[2.324s] [ 12%] Built target auto_aim_interfaces__rosidl_generator_c
+[2.338s] [ 12%] Built target ament_cmake_python_copy_auto_aim_interfaces
+[2.349s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_cpp[0m
+[2.354s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.354s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.396s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.396s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_introspection_c[0m
+[2.409s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_c[0m
+[2.436s] [ 24%] Built target auto_aim_interfaces__rosidl_typesupport_cpp
+[2.446s] [ 42%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.452s] [ 47%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_cpp
+[2.453s] [ 59%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c
+[2.457s] [ 70%] Built target auto_aim_interfaces__rosidl_typesupport_c
+[2.458s] [ 82%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c
+[2.508s] [ 82%] Built target auto_aim_interfaces
+[2.559s] [ 83%] Built target auto_aim_interfaces__py
+[2.586s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_generator_py[0m
+[2.623s] [ 94%] Built target auto_aim_interfaces__rosidl_generator_py
+[2.648s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_c__pyext[0m
+[2.648s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[2.649s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.678s] [ 97%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.678s] [ 98%] Built target auto_aim_interfaces__rosidl_typesupport_c__pyext
+[2.679s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.772s] running egg_info
+[2.773s] writing auto_aim_interfaces.egg-info/PKG-INFO
+[2.775s] writing dependency_links to auto_aim_interfaces.egg-info/dependency_links.txt
+[2.775s] writing top-level names to auto_aim_interfaces.egg-info/top_level.txt
+[2.778s] reading manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[2.778s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[2.823s] [100%] Built target ament_cmake_python_build_auto_aim_interfaces_egg
+[2.847s] Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces -- -j16 -l16
+[3.819s] Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces
+[3.835s] -- Install configuration: ""
+[3.835s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/ament_index/resource_index/rosidl_interfaces/auto_aim_interfaces
+[3.835s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[3.836s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[3.836s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/time_info.h
+[3.836s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.h
+[3.836s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.h
+[3.836s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/time_series.h
+[3.837s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.837s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.h
+[3.837s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/tracker_info.h
+[3.837s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.h
+[3.837s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.h
+[3.837s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.h
+[3.837s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.h
+[3.837s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[3.837s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.h
+[3.837s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__functions.h
+[3.837s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__functions.h
+[3.837s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.h
+[3.838s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__struct.h
+[3.838s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__functions.h
+[3.838s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_series__type_support.h
+[3.838s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_series__functions.h
+[3.838s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.h
+[3.838s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__functions.h
+[3.838s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.h
+[3.838s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__functions.c
+[3.838s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__functions.h
+[3.838s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.h
+[3.838s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.h
+[3.838s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.h
+[3.838s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.h
+[3.838s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__functions.h
+[3.838s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.h
+[3.839s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__functions.c
+[3.839s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__type_support.h
+[3.839s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.h
+[3.839s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__functions.c
+[3.839s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__functions.c
+[3.839s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.h
+[3.839s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__functions.c
+[3.839s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__functions.c
+[3.839s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__functions.c
+[3.839s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.h
+[3.839s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_series__functions.c
+[3.839s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__functions.h
+[3.839s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_series__struct.h
+[3.839s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__functions.h
+[3.839s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__functions.c
+[3.840s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__functions.h
+[3.840s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.h
+[3.840s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__struct.h
+[3.840s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.h
+[3.840s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__functions.c
+[3.840s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.h
+[3.840s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.sh
+[3.840s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.dsv
+[3.840s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so
+[3.840s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[3.840s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[3.840s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.840s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[3.841s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[3.841s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_c.h
+[3.841s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__rosidl_typesupport_fastrtps_c.h
+[3.841s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_c.h
+[3.842s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_series__rosidl_typesupport_fastrtps_c.h
+[3.842s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_c.h
+[3.842s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_c.h
+[3.842s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_fastrtps_c.h
+[3.842s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h
+[3.842s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h
+[3.842s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.843s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[3.843s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[3.843s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.843s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[3.843s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_introspection_c.h
+[3.843s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__type_support.c
+[3.843s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h
+[3.843s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.c
+[3.844s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_series__rosidl_typesupport_introspection_c.h
+[3.844s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.c
+[3.844s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_series__type_support.c
+[3.844s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_c.h
+[3.844s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.c
+[3.844s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_c.h
+[3.844s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_c.h
+[3.844s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.c
+[3.844s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.c
+[3.845s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.c
+[3.845s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.c
+[3.845s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__rosidl_typesupport_introspection_c.h
+[3.845s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h
+[3.845s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_c.h
+[3.845s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h
+[3.845s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.c
+[3.845s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so
+[3.845s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so
+[3.845s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[3.845s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[3.845s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.hpp
+[3.846s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/time_series.hpp
+[3.846s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.hpp
+[3.846s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.hpp
+[3.846s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.hpp
+[3.846s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.hpp
+[3.846s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.hpp
+[3.847s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.hpp
+[3.847s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/time_info.hpp
+[3.847s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[3.847s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__traits.hpp
+[3.847s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__builder.hpp
+[3.847s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.hpp
+[3.847s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__struct.hpp
+[3.847s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__builder.hpp
+[3.848s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__builder.hpp
+[3.848s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.hpp
+[3.848s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__builder.hpp
+[3.848s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__builder.hpp
+[3.848s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.hpp
+[3.848s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__traits.hpp
+[3.848s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.hpp
+[3.848s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_series__struct.hpp
+[3.848s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.hpp
+[3.848s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__struct.hpp
+[3.848s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__traits.hpp
+[3.848s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_series__traits.hpp
+[3.848s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_series__builder.hpp
+[3.848s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__traits.hpp
+[3.849s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__traits.hpp
+[3.849s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__builder.hpp
+[3.849s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.hpp
+[3.849s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__builder.hpp
+[3.849s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__traits.hpp
+[3.849s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__traits.hpp
+[3.849s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.hpp
+[3.849s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__builder.hpp
+[3.849s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__traits.hpp
+[3.849s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__traits.hpp
+[3.849s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__builder.hpp
+[3.849s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/tracker_info.hpp
+[3.849s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[3.849s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[3.850s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.850s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[3.850s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp
+[3.850s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[3.850s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp
+[3.850s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_cpp.hpp
+[3.850s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_cpp.hpp
+[3.850s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_cpp.hpp
+[3.850s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.850s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/dds_fastrtps
+[3.850s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_series__rosidl_typesupport_fastrtps_cpp.hpp
+[3.851s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.851s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_cpp.hpp
+[3.851s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.851s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[3.851s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[3.851s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[3.851s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.cpp
+[3.851s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.cpp
+[3.851s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.cpp
+[3.851s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp
+[3.851s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.cpp
+[3.851s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.cpp
+[3.851s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_cpp.hpp
+[3.851s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.cpp
+[3.852s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_series__rosidl_typesupport_introspection_cpp.hpp
+[3.852s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_cpp.hpp
+[3.852s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_introspection_cpp.hpp
+[3.852s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.cpp
+[3.852s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.cpp
+[3.852s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_series__type_support.cpp
+[3.852s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__rosidl_typesupport_introspection_cpp.hpp
+[3.852s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_cpp.hpp
+[3.852s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[3.852s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_cpp.hpp
+[3.852s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp
+[3.852s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/time_info__type_support.cpp
+[3.852s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.852s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so
+[3.853s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.sh
+[3.853s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.dsv
+[3.853s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-2.0.0-py3.10.egg-info
+[3.853s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-2.0.0-py3.10.egg-info/top_level.txt
+[3.853s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-2.0.0-py3.10.egg-info/dependency_links.txt
+[3.853s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-2.0.0-py3.10.egg-info/PKG-INFO
+[3.853s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-2.0.0-py3.10.egg-info/SOURCES.txt
+[3.853s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces
+[3.853s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.853s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so
+[3.853s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.853s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py
+[3.854s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg
+[3.854s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target_s.c
+[3.854s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target.py
+[3.854s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor.py
+[3.854s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor_s.c
+[3.854s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py
+[3.854s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_time_series_s.c
+[3.854s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors_s.c
+[3.854s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py
+[3.854s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors.py
+[3.854s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_time_info_s.c
+[3.854s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info.py
+[3.855s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors.py
+[3.855s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor_s.c
+[3.855s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors_s.c
+[3.855s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info_s.c
+[3.855s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light_s.c
+[3.855s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights_s.c
+[3.855s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_time_info.py
+[3.855s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor.py
+[3.855s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py
+[3.855s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_time_series.py
+[3.855s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c
+[3.855s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.855s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.855s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.889s] Listing '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces'...
+[3.890s] Compiling '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py'...
+[3.890s] Listing '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg'...
+[3.895s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.896s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.896s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.897s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so
+[3.898s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.idl
+[3.898s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.idl
+[3.898s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.idl
+[3.898s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.idl
+[3.898s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.idl
+[3.898s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.idl
+[3.898s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.idl
+[3.898s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TrackerInfo.idl
+[3.898s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TimeInfo.idl
+[3.899s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TimeSeries.idl
+[3.899s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.msg
+[3.899s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.msg
+[3.899s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.msg
+[3.899s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.msg
+[3.899s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.msg
+[3.899s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.msg
+[3.899s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.msg
+[3.899s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TrackerInfo.msg
+[3.900s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TimeInfo.msg
+[3.900s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TimeSeries.msg
+[3.900s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/ament_index/resource_index/package_run_dependencies/auto_aim_interfaces
+[3.900s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/ament_index/resource_index/parent_prefix_path/auto_aim_interfaces
+[3.900s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.sh
+[3.900s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.dsv
+[3.900s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.sh
+[3.900s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.dsv
+[3.900s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.bash
+[3.900s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.sh
+[3.900s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.zsh
+[3.901s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.dsv
+[3.901s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/package.dsv
+[3.901s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/ament_index/resource_index/packages/auto_aim_interfaces
+[3.901s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport.cmake
+[3.901s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.901s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.901s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.901s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.902s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.902s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport.cmake
+[3.902s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.902s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cppExport.cmake
+[3.902s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.902s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.902s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.903s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.903s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport.cmake
+[3.903s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.903s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport.cmake
+[3.904s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.904s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.904s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.904s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.904s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.904s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.904s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.904s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.904s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig.cmake
+[3.904s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig-version.cmake
+[3.904s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/package.xml
+[3.909s] Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces

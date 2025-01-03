@@ -1,0 +1,256 @@
+[0.052s] Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/buff_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/buff_interfaces -- -j16 -l16
+[0.211s] [ 11%] Built target buff_interfaces__rosidl_generator_c
+[0.222s] [ 12%] Built target buff_interfaces__cpp
+[0.257s] [ 12%] Built target ament_cmake_python_copy_buff_interfaces
+[0.306s] [ 24%] Built target buff_interfaces__rosidl_typesupport_fastrtps_c
+[0.317s] [ 46%] Built target buff_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.317s] [ 46%] Built target buff_interfaces__rosidl_typesupport_introspection_c
+[0.328s] [ 58%] Built target buff_interfaces__rosidl_typesupport_c
+[0.332s] [ 69%] Built target buff_interfaces__rosidl_typesupport_introspection_cpp
+[0.341s] [ 81%] Built target buff_interfaces__rosidl_typesupport_cpp
+[0.391s] [ 81%] Built target buff_interfaces
+[0.439s] [ 82%] Built target buff_interfaces__py
+[0.497s] [ 92%] Built target buff_interfaces__rosidl_generator_py
+[0.551s] [ 97%] Built target buff_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.551s] [ 97%] Built target buff_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.551s] [100%] Built target buff_interfaces__rosidl_typesupport_c__pyext
+[0.680s] running egg_info
+[0.682s] writing buff_interfaces.egg-info/PKG-INFO
+[0.682s] writing dependency_links to buff_interfaces.egg-info/dependency_links.txt
+[0.682s] writing top-level names to buff_interfaces.egg-info/top_level.txt
+[0.685s] reading manifest file 'buff_interfaces.egg-info/SOURCES.txt'
+[0.686s] writing manifest file 'buff_interfaces.egg-info/SOURCES.txt'
+[0.729s] [100%] Built target ament_cmake_python_build_buff_interfaces_egg
+[0.752s] Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/buff_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/buff_interfaces -- -j16 -l16
+[1.449s] Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/buff_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/buff_interfaces
+[1.475s] -- Install configuration: ""
+[1.475s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/ament_index/resource_index/rosidl_interfaces/buff_interfaces
+[1.475s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces
+[1.475s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg
+[1.475s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/time_info.h
+[1.475s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/blade_array.h
+[1.475s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/debug_blade.h
+[1.475s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/rune.h
+[1.475s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/debug_blade_array.h
+[1.476s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/blade.h
+[1.476s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.476s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/rune_info.h
+[1.476s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail
+[1.476s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__struct.h
+[1.476s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__struct.h
+[1.476s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__functions.c
+[1.476s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__struct.h
+[1.476s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__functions.c
+[1.476s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__type_support.h
+[1.476s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__struct.h
+[1.477s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__functions.h
+[1.478s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__functions.c
+[1.478s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__functions.c
+[1.478s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__functions.h
+[1.478s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__type_support.h
+[1.478s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__functions.h
+[1.478s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__type_support.h
+[1.478s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__type_support.h
+[1.478s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__functions.c
+[1.478s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__type_support.h
+[1.478s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__type_support.h
+[1.478s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__functions.c
+[1.478s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__type_support.h
+[1.478s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__functions.c
+[1.478s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__functions.h
+[1.478s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__functions.h
+[1.479s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__functions.h
+[1.479s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__functions.h
+[1.479s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__struct.h
+[1.479s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__struct.h
+[1.479s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__struct.h
+[1.479s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/environment/library_path.sh
+[1.479s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/environment/library_path.dsv
+[1.479s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib/libbuff_interfaces__rosidl_generator_c.so
+[1.479s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces
+[1.479s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg
+[1.479s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.480s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail
+[1.480s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__rosidl_typesupport_fastrtps_c.h
+[1.480s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__rosidl_typesupport_fastrtps_c.h
+[1.480s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__rosidl_typesupport_fastrtps_c.h
+[1.480s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__rosidl_typesupport_fastrtps_c.h
+[1.480s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__rosidl_typesupport_fastrtps_c.h
+[1.480s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__rosidl_typesupport_fastrtps_c.h
+[1.480s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__rosidl_typesupport_fastrtps_c.h
+[1.480s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib/libbuff_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.480s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces
+[1.480s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg
+[1.480s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.480s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail
+[1.481s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__type_support.c
+[1.481s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__type_support.c
+[1.481s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__rosidl_typesupport_introspection_c.h
+[1.481s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__rosidl_typesupport_introspection_c.h
+[1.481s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__rosidl_typesupport_introspection_c.h
+[1.481s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__type_support.c
+[1.481s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__rosidl_typesupport_introspection_c.h
+[1.481s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__rosidl_typesupport_introspection_c.h
+[1.482s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__type_support.c
+[1.482s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__type_support.c
+[1.482s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__rosidl_typesupport_introspection_c.h
+[1.482s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__type_support.c
+[1.482s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__type_support.c
+[1.482s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__rosidl_typesupport_introspection_c.h
+[1.482s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib/libbuff_interfaces__rosidl_typesupport_introspection_c.so
+[1.482s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib/libbuff_interfaces__rosidl_typesupport_c.so
+[1.482s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces
+[1.482s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg
+[1.482s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/debug_blade_array.hpp
+[1.482s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/blade.hpp
+[1.482s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/debug_blade.hpp
+[1.482s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/rune.hpp
+[1.483s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/blade_array.hpp
+[1.483s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/rune_info.hpp
+[1.483s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/time_info.hpp
+[1.483s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail
+[1.483s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__traits.hpp
+[1.483s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__struct.hpp
+[1.483s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__struct.hpp
+[1.483s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__builder.hpp
+[1.483s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__traits.hpp
+[1.483s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__traits.hpp
+[1.483s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__builder.hpp
+[1.483s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__struct.hpp
+[1.483s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__struct.hpp
+[1.483s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__struct.hpp
+[1.484s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__builder.hpp
+[1.484s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__struct.hpp
+[1.484s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__builder.hpp
+[1.484s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__builder.hpp
+[1.484s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__struct.hpp
+[1.484s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__traits.hpp
+[1.484s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__builder.hpp
+[1.484s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__traits.hpp
+[1.484s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__traits.hpp
+[1.484s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__builder.hpp
+[1.484s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__traits.hpp
+[1.484s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces
+[1.484s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg
+[1.484s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.484s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail
+[1.485s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__rosidl_typesupport_fastrtps_cpp.hpp
+[1.485s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__rosidl_typesupport_fastrtps_cpp.hpp
+[1.485s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.485s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__rosidl_typesupport_fastrtps_cpp.hpp
+[1.485s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/dds_fastrtps
+[1.485s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__rosidl_typesupport_fastrtps_cpp.hpp
+[1.485s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.485s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__rosidl_typesupport_fastrtps_cpp.hpp
+[1.485s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib/libbuff_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.485s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces
+[1.485s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg
+[1.485s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail
+[1.485s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__rosidl_typesupport_introspection_cpp.hpp
+[1.485s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__type_support.cpp
+[1.485s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__rosidl_typesupport_introspection_cpp.hpp
+[1.486s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__rosidl_typesupport_introspection_cpp.hpp
+[1.486s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__rosidl_typesupport_introspection_cpp.hpp
+[1.486s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade__type_support.cpp
+[1.486s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__rosidl_typesupport_introspection_cpp.hpp
+[1.486s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade__type_support.cpp
+[1.486s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/blade_array__type_support.cpp
+[1.486s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune__rosidl_typesupport_introspection_cpp.hpp
+[1.486s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__rosidl_typesupport_introspection_cpp.hpp
+[1.486s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/debug_blade_array__type_support.cpp
+[1.486s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/rune_info__type_support.cpp
+[1.486s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/include/buff_interfaces/buff_interfaces/msg/detail/time_info__type_support.cpp
+[1.486s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib/libbuff_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.486s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib/libbuff_interfaces__rosidl_typesupport_cpp.so
+[1.487s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/environment/pythonpath.sh
+[1.487s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/environment/pythonpath.dsv
+[1.487s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces-1.0.0-py3.10.egg-info
+[1.487s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces-1.0.0-py3.10.egg-info/top_level.txt
+[1.487s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces-1.0.0-py3.10.egg-info/dependency_links.txt
+[1.487s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces-1.0.0-py3.10.egg-info/PKG-INFO
+[1.487s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces-1.0.0-py3.10.egg-info/SOURCES.txt
+[1.487s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces
+[1.487s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/__init__.py
+[1.487s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/buff_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.487s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg
+[1.487s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_rune.py
+[1.487s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_rune_s.c
+[1.488s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_debug_blade.py
+[1.488s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/__init__.py
+[1.488s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_blade.py
+[1.488s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_blade_array.py
+[1.488s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_debug_blade_s.c
+[1.488s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_time_info_s.c
+[1.488s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_blade_s.c
+[1.488s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_debug_blade_array.py
+[1.488s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_time_info.py
+[1.488s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_rune_info.py
+[1.488s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_rune_info_s.c
+[1.488s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_debug_blade_array_s.c
+[1.489s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg/_blade_array_s.c
+[1.489s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/libbuff_interfaces__rosidl_generator_py.so
+[1.489s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/buff_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.489s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_c.c
+[1.489s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.489s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/buff_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.489s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/_buff_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.522s] Listing '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces'...
+[1.523s] Listing '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/msg'...
+[1.528s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/buff_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.528s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/buff_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.528s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/local/lib/python3.10/dist-packages/buff_interfaces/buff_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.529s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib/libbuff_interfaces__rosidl_generator_py.so
+[1.529s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/msg/Blade.idl
+[1.530s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/msg/BladeArray.idl
+[1.530s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/msg/DebugBlade.idl
+[1.530s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/msg/DebugBladeArray.idl
+[1.531s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/msg/Rune.idl
+[1.531s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/msg/RuneInfo.idl
+[1.531s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/msg/TimeInfo.idl
+[1.531s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/msg/Blade.msg
+[1.531s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/msg/BladeArray.msg
+[1.532s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/msg/DebugBlade.msg
+[1.532s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/msg/DebugBladeArray.msg
+[1.532s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/msg/Rune.msg
+[1.532s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/msg/RuneInfo.msg
+[1.532s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/msg/TimeInfo.msg
+[1.532s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/ament_index/resource_index/package_run_dependencies/buff_interfaces
+[1.533s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/ament_index/resource_index/parent_prefix_path/buff_interfaces
+[1.533s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/environment/ament_prefix_path.sh
+[1.533s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/environment/ament_prefix_path.dsv
+[1.533s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/environment/path.sh
+[1.533s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/environment/path.dsv
+[1.533s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/local_setup.bash
+[1.533s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/local_setup.sh
+[1.533s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/local_setup.zsh
+[1.533s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/local_setup.dsv
+[1.533s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/package.dsv
+[1.534s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/ament_index/resource_index/packages/buff_interfaces
+[1.534s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/export_buff_interfaces__rosidl_generator_cExport.cmake
+[1.534s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/export_buff_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.535s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/export_buff_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.535s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/export_buff_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.535s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/buff_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.535s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/buff_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.535s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/buff_interfaces__rosidl_typesupport_cExport.cmake
+[1.535s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/buff_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.535s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/export_buff_interfaces__rosidl_generator_cppExport.cmake
+[1.535s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/export_buff_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.536s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/export_buff_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.536s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/buff_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.536s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/buff_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.536s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/buff_interfaces__rosidl_typesupport_cppExport.cmake
+[1.536s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/buff_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.536s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/export_buff_interfaces__rosidl_generator_pyExport.cmake
+[1.536s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/export_buff_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.536s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.537s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.538s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.539s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.539s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.540s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.541s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.541s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/buff_interfacesConfig.cmake
+[1.542s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/cmake/buff_interfacesConfig-version.cmake
+[1.542s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/package.xml
+[1.542s] Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/buff_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/buff_interfaces

@@ -1,0 +1,40 @@
+[0.021s] Invoking command in '/home/nuc/rm_vision_ws/build/rm_serial_driver': AMENT_PREFIX_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces:/home/nuc/rm_vision_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces:/home/nuc/rm_vision_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces/lib:/home/nuc/rm_vision_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuc/rm_vision_ws/install/buff_interfaces/local/lib/python3.10/dist-packages:/home/nuc/rm_vision_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nuc/rm_vision_ws/build/rm_serial_driver -- -j16 -l16
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target rm_serial_driver[0m
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target rm_serial_driver_node[0m
+[0.097s] [ 20%] [32mBuilding CXX object CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o[0m
+[0.101s] [ 60%] Built target rm_serial_driver_node
+[29.463s] [32m[1mLinking CXX shared library librm_serial_driver.so[0m
+[30.456s] Built target rm_serial_driver
+[30.464s] Invoked command in '/home/nuc/rm_vision_ws/build/rm_serial_driver' returned '0': AMENT_PREFIX_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces:/home/nuc/rm_vision_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces:/home/nuc/rm_vision_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces/lib:/home/nuc/rm_vision_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuc/rm_vision_ws/install/buff_interfaces/local/lib/python3.10/dist-packages:/home/nuc/rm_vision_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nuc/rm_vision_ws/build/rm_serial_driver -- -j16 -l16
+[30.488s] Invoking command in '/home/nuc/rm_vision_ws/build/rm_serial_driver': AMENT_PREFIX_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces:/home/nuc/rm_vision_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces:/home/nuc/rm_vision_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces/lib:/home/nuc/rm_vision_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuc/rm_vision_ws/install/buff_interfaces/local/lib/python3.10/dist-packages:/home/nuc/rm_vision_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nuc/rm_vision_ws/build/rm_serial_driver
+[30.494s] -- Install configuration: ""
+[30.495s] -- Execute custom install script
+[30.495s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/lib/rm_serial_driver/rm_serial_driver_node
+[30.495s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/include/rm_serial_driver/crc.hpp
+[30.495s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/include/rm_serial_driver/packet.hpp
+[30.495s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp
+[30.496s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/environment/library_path.sh
+[30.496s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/environment/library_path.dsv
+[30.496s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/lib/librm_serial_driver.so
+[30.496s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/config/serial_driver.yaml
+[30.497s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/launch/serial_driver.launch.py
+[30.497s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/ament_index/resource_index/package_run_dependencies/rm_serial_driver
+[30.497s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/ament_index/resource_index/parent_prefix_path/rm_serial_driver
+[30.497s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/environment/ament_prefix_path.sh
+[30.497s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/environment/ament_prefix_path.dsv
+[30.497s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/environment/path.sh
+[30.497s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/environment/path.dsv
+[30.497s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/local_setup.bash
+[30.497s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/local_setup.sh
+[30.497s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/local_setup.zsh
+[30.498s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/local_setup.dsv
+[30.498s] -- Symlinking: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/package.dsv
+[30.504s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/ament_index/resource_index/packages/rm_serial_driver
+[30.504s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/ament_index/resource_index/rclcpp_components/rm_serial_driver
+[30.505s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.505s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.505s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[30.505s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driverConfig.cmake
+[30.505s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driverConfig-version.cmake
+[30.505s] -- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_serial_driver/share/rm_serial_driver/package.xml
+[30.506s] Invoked command in '/home/nuc/rm_vision_ws/build/rm_serial_driver' returned '0': AMENT_PREFIX_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces:/home/nuc/rm_vision_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces:/home/nuc/rm_vision_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc/rm_vision_ws/install/buff_interfaces/lib:/home/nuc/rm_vision_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuc/rm_vision_ws/install/buff_interfaces/local/lib/python3.10/dist-packages:/home/nuc/rm_vision_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nuc/rm_vision_ws/build/rm_serial_driver

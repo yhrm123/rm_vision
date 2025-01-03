@@ -1,0 +1,15 @@
+/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim/share/ament_index/resource_index/package_run_dependencies/rm_auto_aim
+/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim/share/ament_index/resource_index/parent_prefix_path/rm_auto_aim
+/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim/share/rm_auto_aim/environment/ament_prefix_path.sh
+/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim/share/rm_auto_aim/environment/ament_prefix_path.dsv
+/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim/share/rm_auto_aim/environment/path.sh
+/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim/share/rm_auto_aim/environment/path.dsv
+/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim/share/rm_auto_aim/local_setup.bash
+/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim/share/rm_auto_aim/local_setup.sh
+/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim/share/rm_auto_aim/local_setup.zsh
+/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim/share/rm_auto_aim/local_setup.dsv
+/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim/share/rm_auto_aim/package.dsv
+/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim/share/ament_index/resource_index/packages/rm_auto_aim
+/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim/share/rm_auto_aim/cmake/rm_auto_aimConfig.cmake
+/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim/share/rm_auto_aim/cmake/rm_auto_aimConfig-version.cmake
+/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim/share/rm_auto_aim/package.xml

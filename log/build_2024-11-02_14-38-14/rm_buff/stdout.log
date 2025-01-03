@@ -1,0 +1,25 @@
+-- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nuc/rm_vision_ws/build/rm_buff
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_buff/share/ament_index/resource_index/package_run_dependencies/rm_buff
+-- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_buff/share/ament_index/resource_index/parent_prefix_path/rm_buff
+-- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_buff/share/rm_buff/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_buff/share/rm_buff/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_buff/share/rm_buff/environment/path.sh
+-- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_buff/share/rm_buff/environment/path.dsv
+-- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_buff/share/rm_buff/local_setup.bash
+-- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_buff/share/rm_buff/local_setup.sh
+-- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_buff/share/rm_buff/local_setup.zsh
+-- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_buff/share/rm_buff/local_setup.dsv
+-- Symlinking: /home/nuc/rm_vision_ws/install/rm_buff/share/rm_buff/package.dsv
+-- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_buff/share/ament_index/resource_index/packages/rm_buff
+-- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_buff/share/rm_buff/cmake/rm_buffConfig.cmake
+-- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_buff/share/rm_buff/cmake/rm_buffConfig-version.cmake
+-- Up-to-date symlink: /home/nuc/rm_vision_ws/install/rm_buff/share/rm_buff/package.xml

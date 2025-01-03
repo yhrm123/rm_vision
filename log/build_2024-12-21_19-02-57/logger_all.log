@@ -1,0 +1,918 @@
+[0.122s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.123s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1a0b5ad4b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1a0b732080>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1a0b732080>>)
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.235s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rosnoetic/rm_shaobing_vision'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_detector) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_detector) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_detector) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_detector) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_detector) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_detector) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_detector) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_detector) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_auto_aim/armor_detector' with type 'ros.ament_cmake' and name 'armor_detector'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_tracker) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_tracker) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_tracker) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_tracker) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_tracker) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_tracker) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_tracker) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/armor_tracker) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_auto_aim/armor_tracker' with type 'ros.ament_cmake' and name 'armor_tracker'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/auto_aim_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/auto_aim_interfaces) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/auto_aim_interfaces) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/auto_aim_interfaces) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/auto_aim_interfaces) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/auto_aim_interfaces) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/auto_aim_interfaces) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/auto_aim_interfaces) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/auto_aim_interfaces) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_auto_aim/auto_aim_interfaces' with type 'ros.ament_cmake' and name 'auto_aim_interfaces'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/docs) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/rm_auto_aim) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/rm_auto_aim) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/rm_auto_aim) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/rm_auto_aim) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/rm_auto_aim) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/rm_auto_aim) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/rm_auto_aim) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/rm_auto_aim) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim/rm_auto_aim) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_auto_aim/rm_auto_aim' with type 'ros.ament_cmake' and name 'rm_auto_aim'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_record) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_record) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_record) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_record) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_record) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_record) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_record) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_record) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_record) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_auto_record' with type 'ros.ament_cmake' and name 'rm_auto_record'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_detector) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_detector) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_detector) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_detector) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_detector) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_detector) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_detector) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_detector) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_buff/buff_detector' with type 'ros.ament_cmake' and name 'buff_detector'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_interfaces) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_interfaces) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_interfaces) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_interfaces) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_interfaces) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_interfaces) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_interfaces) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_interfaces) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_buff/buff_interfaces' with type 'ros.ament_cmake' and name 'buff_interfaces'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_tracker) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_tracker) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_tracker) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_tracker) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_tracker) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_tracker) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_tracker) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/buff_tracker) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_buff/buff_tracker' with type 'ros.ament_cmake' and name 'buff_tracker'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs/picture) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs/picture) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs/picture) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs/picture) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs/picture) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs/picture) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs/picture) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs/picture) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs/picture) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs/picture) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs/picture) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs/picture) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs/picture) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/docs/picture) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/example) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/example) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/example) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/example) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/example) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/example) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/example) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/example) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/example) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/example) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/example) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/example) by extension 'python'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/example) by extensions ['python_setup_py']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/example) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/rm_buff) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/rm_buff) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/rm_buff) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/rm_buff) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/rm_buff) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/rm_buff) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/rm_buff) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/rm_buff) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/rm_buff) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_buff/rm_buff' with type 'ros.ament_cmake' and name 'rm_buff'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/rm_buff_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/rm_buff_bringup) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/rm_buff_bringup) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/rm_buff_bringup) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/rm_buff_bringup) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/rm_buff_bringup) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/rm_buff_bringup) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/rm_buff_bringup) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_buff/rm_buff_bringup) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_buff/rm_buff_bringup' with type 'ros.ament_cmake' and name 'rm_buff_bringup'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_classifier_training) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_classifier_training) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_classifier_training) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_classifier_training) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_classifier_training) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_classifier_training) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_classifier_training) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_classifier_training) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_classifier_training) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_classifier_training) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_classifier_training) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_classifier_training) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_classifier_training) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_classifier_training) by extension 'python_setup_py'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_gimbal_description) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_gimbal_description' with type 'ros.ament_cmake' and name 'rm_gimbal_description'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_serial_driver) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_serial_driver' with type 'ros.ament_cmake' and name 'rm_serial_driver'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'ros'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extensions ['cmake', 'python']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'cmake'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'python'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision) by extension 'python_setup_py'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extension 'ros'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extensions ['cmake', 'python']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extension 'cmake'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extension 'python'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extensions ['python_setup_py']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/docs) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/rm_vision_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/rm_vision_bringup) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/rm_vision_bringup) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/rm_vision_bringup) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/rm_vision_bringup) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/rm_vision_bringup) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/rm_vision_bringup) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/rm_vision_bringup) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_vision/rm_vision_bringup) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_vision/rm_vision_bringup' with type 'ros.ament_cmake' and name 'rm_vision_bringup'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_hik_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_hik_camera) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_hik_camera) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_hik_camera) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_hik_camera) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_hik_camera) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_hik_camera) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_hik_camera) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_hik_camera) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_hik_camera' with type 'ros.ament_cmake' and name 'hik_camera'
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.288s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/rosnoetic/rm_shaobing_vision/install
+[0.293s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/rosnoetic/ros_ws/install
+[0.294s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 353 installed packages in /opt/ros/humble
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'auto_aim_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.325s] DEBUG:colcon.colcon_core.verb:Building package 'auto_aim_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces', 'merge_install': False, 'path': '/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/auto_aim_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'buff_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'buff_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'buff_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'buff_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'buff_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'buff_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'buff_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'buff_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'buff_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.325s] DEBUG:colcon.colcon_core.verb:Building package 'buff_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosnoetic/rm_shaobing_vision/build/buff_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces', 'merge_install': False, 'path': '/home/rosnoetic/rm_shaobing_vision/src/rm_buff/buff_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'cmake_target' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'hik_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.326s] DEBUG:colcon.colcon_core.verb:Building package 'hik_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosnoetic/rm_shaobing_vision/build/hik_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosnoetic/rm_shaobing_vision/install/hik_camera', 'merge_install': False, 'path': '/home/rosnoetic/rm_shaobing_vision/src/ros2_hik_camera', 'symlink_install': False, 'test_result_base': None}
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_record' build argument 'cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_record' build argument 'cmake_target' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_record' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_record' build argument 'cmake_clean_cache' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_record' build argument 'cmake_clean_first' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_record' build argument 'cmake_force_configure' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_record' build argument 'ament_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_record' build argument 'catkin_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_record' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.326s] DEBUG:colcon.colcon_core.verb:Building package 'rm_auto_record' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosnoetic/rm_shaobing_vision/build/rm_auto_record', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record', 'merge_install': False, 'path': '/home/rosnoetic/rm_shaobing_vision/src/rm_auto_record', 'symlink_install': False, 'test_result_base': None}
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'cmake_target' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'rm_gimbal_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.326s] DEBUG:colcon.colcon_core.verb:Building package 'rm_gimbal_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description', 'merge_install': False, 'path': '/home/rosnoetic/rm_shaobing_vision/src/rm_gimbal_description', 'symlink_install': False, 'test_result_base': None}
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'armor_detector' build argument 'cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'armor_detector' build argument 'cmake_target' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'armor_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'armor_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'armor_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'armor_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'armor_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'armor_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'armor_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'armor_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosnoetic/rm_shaobing_vision/build/armor_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosnoetic/rm_shaobing_vision/install/armor_detector', 'merge_install': False, 'path': '/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/armor_detector', 'symlink_install': False, 'test_result_base': None}
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'armor_tracker' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'armor_tracker' build argument 'cmake_target' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'armor_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'armor_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'armor_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'armor_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'armor_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'armor_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'armor_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'armor_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosnoetic/rm_shaobing_vision/build/armor_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker', 'merge_install': False, 'path': '/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/armor_tracker', 'symlink_install': False, 'test_result_base': None}
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'buff_detector' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'buff_detector' build argument 'cmake_target' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'buff_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'buff_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'buff_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'buff_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'buff_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'buff_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'buff_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'buff_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosnoetic/rm_shaobing_vision/build/buff_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosnoetic/rm_shaobing_vision/install/buff_detector', 'merge_install': False, 'path': '/home/rosnoetic/rm_shaobing_vision/src/rm_buff/buff_detector', 'symlink_install': False, 'test_result_base': None}
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'buff_tracker' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'buff_tracker' build argument 'cmake_target' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'buff_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'buff_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'buff_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'buff_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'buff_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'buff_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'buff_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'buff_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosnoetic/rm_shaobing_vision/build/buff_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker', 'merge_install': False, 'path': '/home/rosnoetic/rm_shaobing_vision/src/rm_buff/buff_tracker', 'symlink_install': False, 'test_result_base': None}
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_target' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_serial_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'rm_serial_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosnoetic/rm_shaobing_vision/build/rm_serial_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver', 'merge_install': False, 'path': '/home/rosnoetic/rm_shaobing_vision/src/rm_serial_driver', 'symlink_install': False, 'test_result_base': None}
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'cmake_target' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'cmake_clean_first' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'cmake_force_configure' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'ament_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'rm_auto_aim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosnoetic/rm_shaobing_vision/build/rm_auto_aim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim', 'merge_install': False, 'path': '/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/rm_auto_aim', 'symlink_install': False, 'test_result_base': None}
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_buff' build argument 'cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'rm_buff' build argument 'cmake_target' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_buff' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_buff' build argument 'cmake_clean_cache' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_buff' build argument 'cmake_clean_first' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_buff' build argument 'cmake_force_configure' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_buff' build argument 'ament_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_buff' build argument 'catkin_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_buff' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.329s] DEBUG:colcon.colcon_core.verb:Building package 'rm_buff' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosnoetic/rm_shaobing_vision/build/rm_buff', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosnoetic/rm_shaobing_vision/install/rm_buff', 'merge_install': False, 'path': '/home/rosnoetic/rm_shaobing_vision/src/rm_buff/rm_buff', 'symlink_install': False, 'test_result_base': None}
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_buff_bringup' build argument 'cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_buff_bringup' build argument 'cmake_target' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_buff_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_buff_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_buff_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_buff_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_buff_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_buff_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_buff_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.329s] DEBUG:colcon.colcon_core.verb:Building package 'rm_buff_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosnoetic/rm_shaobing_vision/build/rm_buff_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosnoetic/rm_shaobing_vision/install/rm_buff_bringup', 'merge_install': False, 'path': '/home/rosnoetic/rm_shaobing_vision/src/rm_buff/rm_buff_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'cmake_target' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'rm_vision_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.329s] DEBUG:colcon.colcon_core.verb:Building package 'rm_vision_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rosnoetic/rm_shaobing_vision/build/rm_vision_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rosnoetic/rm_shaobing_vision/install/rm_vision_bringup', 'merge_install': False, 'path': '/home/rosnoetic/rm_shaobing_vision/src/rm_vision/rm_vision_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.329s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.330s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.332s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/auto_aim_interfaces' with build type 'ament_cmake'
+[0.332s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/auto_aim_interfaces'
+[0.334s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.341s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosnoetic/rm_shaobing_vision/src/rm_buff/buff_interfaces' with build type 'ament_cmake'
+[0.341s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosnoetic/rm_shaobing_vision/src/rm_buff/buff_interfaces'
+[0.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.349s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosnoetic/rm_shaobing_vision/src/rm_gimbal_description' with build type 'ament_cmake'
+[0.350s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosnoetic/rm_shaobing_vision/src/rm_gimbal_description'
+[0.350s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.350s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.359s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosnoetic/rm_shaobing_vision/src/ros2_hik_camera' with build type 'ament_cmake'
+[0.359s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosnoetic/rm_shaobing_vision/src/ros2_hik_camera'
+[0.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.367s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosnoetic/rm_shaobing_vision/src/rm_auto_record' with build type 'ament_cmake'
+[0.367s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosnoetic/rm_shaobing_vision/src/rm_auto_record'
+[0.367s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.367s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces -- -j16 -l16
+[0.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/buff_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/buff_interfaces -- -j16 -l16
+[0.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description -- -j16 -l16
+[0.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/hik_camera -- -j16 -l16
+[0.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/rm_auto_record': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/rm_auto_record -- -j16 -l16
+[0.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description -- -j16 -l16
+[0.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/hik_camera -- -j16 -l16
+[0.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description
+[0.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/rm_auto_record' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/rm_auto_record -- -j16 -l16
+[0.626s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_gimbal_description)
+[0.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/rm_gimbal_description
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description' for CMake module files
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description' for CMake config files
+[0.636s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_gimbal_description', 'cmake_prefix_path')
+[0.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/hook/cmake_prefix_path.ps1'
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/hook/cmake_prefix_path.dsv'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/hook/cmake_prefix_path.sh'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/bin'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/lib/pkgconfig/rm_gimbal_description.pc'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/lib/python3.10/site-packages'
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/bin'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/package.ps1'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/package.dsv'
+[0.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/package.sh'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/package.bash'
+[0.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/package.zsh'
+[0.649s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/colcon-core/packages/rm_gimbal_description)
+[0.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/hik_camera
+[0.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hik_camera)
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/hik_camera' for CMake module files
+[0.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/hik_camera
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/hik_camera' for CMake config files
+[0.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('hik_camera', 'cmake_prefix_path')
+[0.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.ps1'
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.dsv'
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.sh'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib'
+[0.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('hik_camera', 'ld_library_path_lib')
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.ps1'
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.dsv'
+[0.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.sh'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/bin'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib/pkgconfig/hik_camera.pc'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib/python3.10/site-packages'
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/bin'
+[0.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/package.ps1'
+[0.723s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/package.dsv'
+[0.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/package.sh'
+[0.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/package.bash'
+[0.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/package.zsh'
+[0.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/colcon-core/packages/hik_camera)
+[0.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/rm_auto_record': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/rm_auto_record
+[0.735s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_gimbal_description)
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description' for CMake module files
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description' for CMake config files
+[0.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_gimbal_description', 'cmake_prefix_path')
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/hook/cmake_prefix_path.ps1'
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/hook/cmake_prefix_path.dsv'
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/hook/cmake_prefix_path.sh'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/bin'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/lib/pkgconfig/rm_gimbal_description.pc'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/lib/python3.10/site-packages'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/bin'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/package.ps1'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/package.dsv'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/package.sh'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/package.bash'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/rm_gimbal_description/package.zsh'
+[0.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description/share/colcon-core/packages/rm_gimbal_description)
+[0.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_auto_record)
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record' for CMake module files
+[0.765s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record' for CMake config files
+[0.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_auto_record', 'cmake_prefix_path')
+[0.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/hook/cmake_prefix_path.ps1'
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/hook/cmake_prefix_path.dsv'
+[0.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/rm_auto_record' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/rm_auto_record
+[0.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/hook/cmake_prefix_path.sh'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib'
+[0.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_auto_record', 'ld_library_path_lib')
+[0.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/hook/ld_library_path_lib.ps1'
+[0.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/hook/ld_library_path_lib.dsv'
+[0.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/hook/ld_library_path_lib.sh'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/bin'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib/pkgconfig/rm_auto_record.pc'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib/python3.10/site-packages'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/bin'
+[0.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/package.ps1'
+[0.775s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/package.dsv'
+[0.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/package.sh'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/package.bash'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/package.zsh'
+[0.779s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/colcon-core/packages/rm_auto_record)
+[0.875s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hik_camera)
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/hik_camera' for CMake module files
+[0.876s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/hik_camera' for CMake config files
+[0.877s] Level 1:colcon.colcon_core.shell:create_environment_hook('hik_camera', 'cmake_prefix_path')
+[0.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.ps1'
+[0.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.dsv'
+[0.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.sh'
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib'
+[0.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('hik_camera', 'ld_library_path_lib')
+[0.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.ps1'
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.dsv'
+[0.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.sh'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/bin'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib/pkgconfig/hik_camera.pc'
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib/python3.10/site-packages'
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/bin'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/package.ps1'
+[0.887s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/package.dsv'
+[0.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/package.sh'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/package.bash'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/hik_camera/package.zsh'
+[0.893s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosnoetic/rm_shaobing_vision/install/hik_camera/share/colcon-core/packages/hik_camera)
+[0.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_auto_record)
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record' for CMake module files
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record' for CMake config files
+[0.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_auto_record', 'cmake_prefix_path')
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/hook/cmake_prefix_path.ps1'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/hook/cmake_prefix_path.dsv'
+[0.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/hook/cmake_prefix_path.sh'
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib'
+[0.921s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_auto_record', 'ld_library_path_lib')
+[0.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/hook/ld_library_path_lib.ps1'
+[0.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/hook/ld_library_path_lib.dsv'
+[0.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/hook/ld_library_path_lib.sh'
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/bin'
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib/pkgconfig/rm_auto_record.pc'
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib/python3.10/site-packages'
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/bin'
+[0.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/package.ps1'
+[0.926s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/package.dsv'
+[0.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/package.sh'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/package.bash'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/package.zsh'
+[0.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/colcon-core/packages/rm_auto_record)
+[1.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/buff_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/buff_interfaces -- -j16 -l16
+[1.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/buff_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/buff_interfaces
+[1.824s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(buff_interfaces)
+[1.824s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces' for CMake module files
+[1.825s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces' for CMake config files
+[1.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('buff_interfaces', 'cmake_prefix_path')
+[1.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/hook/cmake_prefix_path.ps1'
+[1.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/hook/cmake_prefix_path.dsv'
+[1.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/buff_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/buff_interfaces
+[1.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/hook/cmake_prefix_path.sh'
+[1.829s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib'
+[1.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('buff_interfaces', 'ld_library_path_lib')
+[1.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/hook/ld_library_path_lib.ps1'
+[1.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/hook/ld_library_path_lib.dsv'
+[1.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/hook/ld_library_path_lib.sh'
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/bin'
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib/pkgconfig/buff_interfaces.pc'
+[1.833s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib/python3.10/site-packages'
+[1.833s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/bin'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/package.ps1'
+[1.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/package.dsv'
+[1.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/package.sh'
+[1.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/package.bash'
+[1.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/package.zsh'
+[1.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/colcon-core/packages/buff_interfaces)
+[2.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(buff_interfaces)
+[2.560s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces' for CMake module files
+[2.561s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces' for CMake config files
+[2.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('buff_interfaces', 'cmake_prefix_path')
+[2.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/hook/cmake_prefix_path.ps1'
+[2.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/hook/cmake_prefix_path.dsv'
+[2.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/hook/cmake_prefix_path.sh'
+[2.565s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib'
+[2.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('buff_interfaces', 'ld_library_path_lib')
+[2.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/hook/ld_library_path_lib.ps1'
+[2.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/hook/ld_library_path_lib.dsv'
+[2.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/hook/ld_library_path_lib.sh'
+[2.568s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/bin'
+[2.568s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib/pkgconfig/buff_interfaces.pc'
+[2.569s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib/python3.10/site-packages'
+[2.569s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/bin'
+[2.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/package.ps1'
+[2.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/package.dsv'
+[2.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/package.sh'
+[2.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/package.bash'
+[2.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/buff_interfaces/package.zsh'
+[2.575s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/share/colcon-core/packages/buff_interfaces)
+[2.576s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosnoetic/rm_shaobing_vision/src/rm_buff/buff_detector' with build type 'ament_cmake'
+[2.578s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosnoetic/rm_shaobing_vision/src/rm_buff/buff_detector'
+[2.578s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.588s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosnoetic/rm_shaobing_vision/src/rm_buff/buff_tracker' with build type 'ament_cmake'
+[2.588s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosnoetic/rm_shaobing_vision/src/rm_buff/buff_tracker'
+[2.589s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.589s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/buff_detector': CMAKE_PREFIX_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces:/home/rosnoetic/rm_shaobing_vision/install/rm_vision_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_buff_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver:/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description:/home/rosnoetic/rm_shaobing_vision/install/rm_buff:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim:/home/rosnoetic/rm_shaobing_vision/install/hik_camera:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker:/home/rosnoetic/rm_shaobing_vision/install/buff_detector:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker:/home/rosnoetic/rm_shaobing_vision/install/armor_detector:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib:/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/rosnoetic/ros_ws/install/rm_serial_driver/lib:/home/rosnoetic/ros_ws/install/hik_camera/lib:/home/rosnoetic/ros_ws/install/armor_tracker/lib:/home/rosnoetic/ros_ws/install/armor_detector/lib:/home/rosnoetic/ros_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/buff_detector -- -j16 -l16
+[2.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/buff_tracker': CMAKE_PREFIX_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces:/home/rosnoetic/rm_shaobing_vision/install/rm_vision_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_buff_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver:/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description:/home/rosnoetic/rm_shaobing_vision/install/rm_buff:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim:/home/rosnoetic/rm_shaobing_vision/install/hik_camera:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker:/home/rosnoetic/rm_shaobing_vision/install/buff_detector:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker:/home/rosnoetic/rm_shaobing_vision/install/armor_detector:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib:/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/rosnoetic/ros_ws/install/rm_serial_driver/lib:/home/rosnoetic/ros_ws/install/hik_camera/lib:/home/rosnoetic/ros_ws/install/armor_tracker/lib:/home/rosnoetic/ros_ws/install/armor_detector/lib:/home/rosnoetic/ros_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/buff_tracker -- -j16 -l16
+[2.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/buff_detector' returned '0': CMAKE_PREFIX_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces:/home/rosnoetic/rm_shaobing_vision/install/rm_vision_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_buff_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver:/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description:/home/rosnoetic/rm_shaobing_vision/install/rm_buff:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim:/home/rosnoetic/rm_shaobing_vision/install/hik_camera:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker:/home/rosnoetic/rm_shaobing_vision/install/buff_detector:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker:/home/rosnoetic/rm_shaobing_vision/install/armor_detector:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib:/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/rosnoetic/ros_ws/install/rm_serial_driver/lib:/home/rosnoetic/ros_ws/install/hik_camera/lib:/home/rosnoetic/ros_ws/install/armor_tracker/lib:/home/rosnoetic/ros_ws/install/armor_detector/lib:/home/rosnoetic/ros_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/buff_detector -- -j16 -l16
+[2.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/buff_tracker' returned '0': CMAKE_PREFIX_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces:/home/rosnoetic/rm_shaobing_vision/install/rm_vision_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_buff_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver:/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description:/home/rosnoetic/rm_shaobing_vision/install/rm_buff:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim:/home/rosnoetic/rm_shaobing_vision/install/hik_camera:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker:/home/rosnoetic/rm_shaobing_vision/install/buff_detector:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker:/home/rosnoetic/rm_shaobing_vision/install/armor_detector:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib:/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/rosnoetic/ros_ws/install/rm_serial_driver/lib:/home/rosnoetic/ros_ws/install/hik_camera/lib:/home/rosnoetic/ros_ws/install/armor_tracker/lib:/home/rosnoetic/ros_ws/install/armor_detector/lib:/home/rosnoetic/ros_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/buff_tracker -- -j16 -l16
+[2.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/buff_detector': CMAKE_PREFIX_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces:/home/rosnoetic/rm_shaobing_vision/install/rm_vision_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_buff_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver:/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description:/home/rosnoetic/rm_shaobing_vision/install/rm_buff:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim:/home/rosnoetic/rm_shaobing_vision/install/hik_camera:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker:/home/rosnoetic/rm_shaobing_vision/install/buff_detector:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker:/home/rosnoetic/rm_shaobing_vision/install/armor_detector:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib:/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/rosnoetic/ros_ws/install/rm_serial_driver/lib:/home/rosnoetic/ros_ws/install/hik_camera/lib:/home/rosnoetic/ros_ws/install/armor_tracker/lib:/home/rosnoetic/ros_ws/install/armor_detector/lib:/home/rosnoetic/ros_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/buff_detector
+[2.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(buff_detector)
+[2.895s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_detector' for CMake module files
+[2.896s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_detector' for CMake config files
+[2.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/buff_detector' returned '0': CMAKE_PREFIX_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces:/home/rosnoetic/rm_shaobing_vision/install/rm_vision_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_buff_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver:/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description:/home/rosnoetic/rm_shaobing_vision/install/rm_buff:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim:/home/rosnoetic/rm_shaobing_vision/install/hik_camera:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker:/home/rosnoetic/rm_shaobing_vision/install/buff_detector:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker:/home/rosnoetic/rm_shaobing_vision/install/armor_detector:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib:/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/rosnoetic/ros_ws/install/rm_serial_driver/lib:/home/rosnoetic/ros_ws/install/hik_camera/lib:/home/rosnoetic/ros_ws/install/armor_tracker/lib:/home/rosnoetic/ros_ws/install/armor_detector/lib:/home/rosnoetic/ros_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/buff_detector
+[2.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('buff_detector', 'cmake_prefix_path')
+[2.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/hook/cmake_prefix_path.ps1'
+[2.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/hook/cmake_prefix_path.dsv'
+[2.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/hook/cmake_prefix_path.sh'
+[2.901s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib'
+[2.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('buff_detector', 'ld_library_path_lib')
+[2.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/hook/ld_library_path_lib.ps1'
+[2.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/hook/ld_library_path_lib.dsv'
+[2.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/hook/ld_library_path_lib.sh'
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/bin'
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib/pkgconfig/buff_detector.pc'
+[2.905s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib/python3.10/site-packages'
+[2.905s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/bin'
+[2.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/package.ps1'
+[2.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/package.dsv'
+[2.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/package.sh'
+[2.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/package.bash'
+[2.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/package.zsh'
+[2.910s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/colcon-core/packages/buff_detector)
+[2.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/buff_tracker': CMAKE_PREFIX_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces:/home/rosnoetic/rm_shaobing_vision/install/rm_vision_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_buff_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver:/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description:/home/rosnoetic/rm_shaobing_vision/install/rm_buff:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim:/home/rosnoetic/rm_shaobing_vision/install/hik_camera:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker:/home/rosnoetic/rm_shaobing_vision/install/buff_detector:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker:/home/rosnoetic/rm_shaobing_vision/install/armor_detector:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib:/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/rosnoetic/ros_ws/install/rm_serial_driver/lib:/home/rosnoetic/ros_ws/install/hik_camera/lib:/home/rosnoetic/ros_ws/install/armor_tracker/lib:/home/rosnoetic/ros_ws/install/armor_detector/lib:/home/rosnoetic/ros_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/buff_tracker
+[2.937s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(buff_tracker)
+[2.938s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker' for CMake module files
+[2.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/buff_tracker' returned '0': CMAKE_PREFIX_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces:/home/rosnoetic/rm_shaobing_vision/install/rm_vision_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_buff_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver:/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description:/home/rosnoetic/rm_shaobing_vision/install/rm_buff:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim:/home/rosnoetic/rm_shaobing_vision/install/hik_camera:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker:/home/rosnoetic/rm_shaobing_vision/install/buff_detector:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker:/home/rosnoetic/rm_shaobing_vision/install/armor_detector:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib:/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/rosnoetic/ros_ws/install/rm_serial_driver/lib:/home/rosnoetic/ros_ws/install/hik_camera/lib:/home/rosnoetic/ros_ws/install/armor_tracker/lib:/home/rosnoetic/ros_ws/install/armor_detector/lib:/home/rosnoetic/ros_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/buff_tracker
+[2.939s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker' for CMake config files
+[2.940s] Level 1:colcon.colcon_core.shell:create_environment_hook('buff_tracker', 'cmake_prefix_path')
+[2.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/hook/cmake_prefix_path.ps1'
+[2.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/hook/cmake_prefix_path.dsv'
+[2.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/hook/cmake_prefix_path.sh'
+[2.943s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib'
+[2.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('buff_tracker', 'ld_library_path_lib')
+[2.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/hook/ld_library_path_lib.ps1'
+[2.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/hook/ld_library_path_lib.dsv'
+[2.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/hook/ld_library_path_lib.sh'
+[2.945s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/bin'
+[2.945s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib/pkgconfig/buff_tracker.pc'
+[2.946s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib/python3.10/site-packages'
+[2.946s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/bin'
+[2.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/package.ps1'
+[2.947s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/package.dsv'
+[2.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/package.sh'
+[2.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/package.bash'
+[2.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/package.zsh'
+[2.950s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/colcon-core/packages/buff_tracker)
+[3.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(buff_detector)
+[3.029s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_detector' for CMake module files
+[3.030s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_detector' for CMake config files
+[3.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('buff_detector', 'cmake_prefix_path')
+[3.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/hook/cmake_prefix_path.ps1'
+[3.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/hook/cmake_prefix_path.dsv'
+[3.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/hook/cmake_prefix_path.sh'
+[3.033s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib'
+[3.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('buff_detector', 'ld_library_path_lib')
+[3.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/hook/ld_library_path_lib.ps1'
+[3.035s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/hook/ld_library_path_lib.dsv'
+[3.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/hook/ld_library_path_lib.sh'
+[3.036s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/bin'
+[3.036s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib/pkgconfig/buff_detector.pc'
+[3.036s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib/python3.10/site-packages'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/bin'
+[3.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/package.ps1'
+[3.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/package.dsv'
+[3.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/package.sh'
+[3.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/package.bash'
+[3.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/buff_detector/package.zsh'
+[3.041s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosnoetic/rm_shaobing_vision/install/buff_detector/share/colcon-core/packages/buff_detector)
+[3.081s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(buff_tracker)
+[3.081s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker' for CMake module files
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker' for CMake config files
+[3.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('buff_tracker', 'cmake_prefix_path')
+[3.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/hook/cmake_prefix_path.ps1'
+[3.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/hook/cmake_prefix_path.dsv'
+[3.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/hook/cmake_prefix_path.sh'
+[3.086s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib'
+[3.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('buff_tracker', 'ld_library_path_lib')
+[3.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/hook/ld_library_path_lib.ps1'
+[3.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/hook/ld_library_path_lib.dsv'
+[3.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/hook/ld_library_path_lib.sh'
+[3.090s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/bin'
+[3.091s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib/pkgconfig/buff_tracker.pc'
+[3.091s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib/python3.10/site-packages'
+[3.091s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/bin'
+[3.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/package.ps1'
+[3.093s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/package.dsv'
+[3.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/package.sh'
+[3.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/package.bash'
+[3.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/buff_tracker/package.zsh'
+[3.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/share/colcon-core/packages/buff_tracker)
+[3.097s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosnoetic/rm_shaobing_vision/src/rm_buff/rm_buff' with build type 'ament_cmake'
+[3.098s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosnoetic/rm_shaobing_vision/src/rm_buff/rm_buff'
+[3.098s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.099s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/rm_buff': CMAKE_PREFIX_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_tracker:/home/rosnoetic/rm_shaobing_vision/install/buff_detector:/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces:/home/rosnoetic/rm_shaobing_vision/install/rm_vision_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_buff_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver:/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description:/home/rosnoetic/rm_shaobing_vision/install/rm_buff:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim:/home/rosnoetic/rm_shaobing_vision/install/hik_camera:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker:/home/rosnoetic/rm_shaobing_vision/install/armor_detector:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib:/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/rosnoetic/ros_ws/install/rm_serial_driver/lib:/home/rosnoetic/ros_ws/install/hik_camera/lib:/home/rosnoetic/ros_ws/install/armor_tracker/lib:/home/rosnoetic/ros_ws/install/armor_detector/lib:/home/rosnoetic/ros_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/rm_buff -- -j16 -l16
+[3.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/rm_buff' returned '0': CMAKE_PREFIX_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_tracker:/home/rosnoetic/rm_shaobing_vision/install/buff_detector:/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces:/home/rosnoetic/rm_shaobing_vision/install/rm_vision_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_buff_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver:/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description:/home/rosnoetic/rm_shaobing_vision/install/rm_buff:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim:/home/rosnoetic/rm_shaobing_vision/install/hik_camera:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker:/home/rosnoetic/rm_shaobing_vision/install/armor_detector:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib:/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/rosnoetic/ros_ws/install/rm_serial_driver/lib:/home/rosnoetic/ros_ws/install/hik_camera/lib:/home/rosnoetic/ros_ws/install/armor_tracker/lib:/home/rosnoetic/ros_ws/install/armor_detector/lib:/home/rosnoetic/ros_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/rm_buff -- -j16 -l16
+[3.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/rm_buff': CMAKE_PREFIX_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_tracker:/home/rosnoetic/rm_shaobing_vision/install/buff_detector:/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces:/home/rosnoetic/rm_shaobing_vision/install/rm_vision_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_buff_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver:/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description:/home/rosnoetic/rm_shaobing_vision/install/rm_buff:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim:/home/rosnoetic/rm_shaobing_vision/install/hik_camera:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker:/home/rosnoetic/rm_shaobing_vision/install/armor_detector:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib:/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/rosnoetic/ros_ws/install/rm_serial_driver/lib:/home/rosnoetic/ros_ws/install/hik_camera/lib:/home/rosnoetic/ros_ws/install/armor_tracker/lib:/home/rosnoetic/ros_ws/install/armor_detector/lib:/home/rosnoetic/ros_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/rm_buff
+[3.403s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_buff)
+[3.403s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_buff' for CMake module files
+[3.404s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_buff' for CMake config files
+[3.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_buff', 'cmake_prefix_path')
+[3.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/hook/cmake_prefix_path.ps1'
+[3.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/hook/cmake_prefix_path.dsv'
+[3.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/hook/cmake_prefix_path.sh'
+[3.408s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/bin'
+[3.408s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/lib/pkgconfig/rm_buff.pc'
+[3.409s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/lib/python3.10/site-packages'
+[3.409s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/bin'
+[3.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/package.ps1'
+[3.410s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/package.dsv'
+[3.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/rm_buff' returned '0': CMAKE_PREFIX_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_tracker:/home/rosnoetic/rm_shaobing_vision/install/buff_detector:/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces:/home/rosnoetic/rm_shaobing_vision/install/rm_vision_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_buff_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver:/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description:/home/rosnoetic/rm_shaobing_vision/install/rm_buff:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim:/home/rosnoetic/rm_shaobing_vision/install/hik_camera:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker:/home/rosnoetic/rm_shaobing_vision/install/armor_detector:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib:/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/rosnoetic/ros_ws/install/rm_serial_driver/lib:/home/rosnoetic/ros_ws/install/hik_camera/lib:/home/rosnoetic/ros_ws/install/armor_tracker/lib:/home/rosnoetic/ros_ws/install/armor_detector/lib:/home/rosnoetic/ros_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/rm_buff
+[3.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/package.sh'
+[3.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/package.bash'
+[3.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/package.zsh'
+[3.419s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/colcon-core/packages/rm_buff)
+[3.510s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_buff)
+[3.510s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_buff' for CMake module files
+[3.511s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_buff' for CMake config files
+[3.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_buff', 'cmake_prefix_path')
+[3.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/hook/cmake_prefix_path.ps1'
+[3.526s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/hook/cmake_prefix_path.dsv'
+[3.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/hook/cmake_prefix_path.sh'
+[3.528s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/bin'
+[3.528s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/lib/pkgconfig/rm_buff.pc'
+[3.529s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/lib/python3.10/site-packages'
+[3.529s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/bin'
+[3.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/package.ps1'
+[3.541s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/package.dsv'
+[3.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/package.sh'
+[3.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/package.bash'
+[3.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/package.zsh'
+[3.544s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/colcon-core/packages/rm_buff)
+[10.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces -- -j16 -l16
+[11.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces
+[11.776s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auto_aim_interfaces)
+[11.776s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces' for CMake module files
+[11.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces
+[11.777s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces' for CMake config files
+[11.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_aim_interfaces', 'cmake_prefix_path')
+[11.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/cmake_prefix_path.ps1'
+[11.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/cmake_prefix_path.dsv'
+[11.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/cmake_prefix_path.sh'
+[11.781s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib'
+[11.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_aim_interfaces', 'ld_library_path_lib')
+[11.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/ld_library_path_lib.ps1'
+[11.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/ld_library_path_lib.dsv'
+[11.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/ld_library_path_lib.sh'
+[11.783s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/bin'
+[11.784s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib/pkgconfig/auto_aim_interfaces.pc'
+[11.784s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib/python3.10/site-packages'
+[11.784s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/bin'
+[11.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/package.ps1'
+[11.785s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/package.dsv'
+[11.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/package.sh'
+[11.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/package.bash'
+[11.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/package.zsh'
+[11.789s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/colcon-core/packages/auto_aim_interfaces)
+[12.747s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auto_aim_interfaces)
+[12.748s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces' for CMake module files
+[12.749s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces' for CMake config files
+[12.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_aim_interfaces', 'cmake_prefix_path')
+[12.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/cmake_prefix_path.ps1'
+[12.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/cmake_prefix_path.dsv'
+[12.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/cmake_prefix_path.sh'
+[12.753s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib'
+[12.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_aim_interfaces', 'ld_library_path_lib')
+[12.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/ld_library_path_lib.ps1'
+[12.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/ld_library_path_lib.dsv'
+[12.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/hook/ld_library_path_lib.sh'
+[12.755s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/bin'
+[12.755s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib/pkgconfig/auto_aim_interfaces.pc'
+[12.756s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib/python3.10/site-packages'
+[12.756s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/bin'
+[12.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/package.ps1'
+[12.757s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/package.dsv'
+[12.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/package.sh'
+[12.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/package.bash'
+[12.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/auto_aim_interfaces/package.zsh'
+[12.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/share/colcon-core/packages/auto_aim_interfaces)
+[12.761s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/armor_detector' with build type 'ament_cmake'
+[12.761s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/armor_detector'
+[12.762s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.762s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.774s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/armor_tracker' with build type 'ament_cmake'
+[12.774s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosnoetic/rm_shaobing_vision/src/rm_auto_aim/armor_tracker'
+[12.774s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.775s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.783s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rosnoetic/rm_shaobing_vision/src/rm_serial_driver' with build type 'ament_cmake'
+[12.783s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rosnoetic/rm_shaobing_vision/src/rm_serial_driver'
+[12.784s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.784s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/armor_detector': CMAKE_PREFIX_PATH=/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces:/home/rosnoetic/rm_shaobing_vision/install/rm_vision_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_buff_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver:/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description:/home/rosnoetic/rm_shaobing_vision/install/rm_buff:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim:/home/rosnoetic/rm_shaobing_vision/install/hik_camera:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker:/home/rosnoetic/rm_shaobing_vision/install/buff_detector:/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker:/home/rosnoetic/rm_shaobing_vision/install/armor_detector:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib:/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/rosnoetic/ros_ws/install/rm_serial_driver/lib:/home/rosnoetic/ros_ws/install/hik_camera/lib:/home/rosnoetic/ros_ws/install/armor_tracker/lib:/home/rosnoetic/ros_ws/install/armor_detector/lib:/home/rosnoetic/ros_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/armor_detector -- -j16 -l16
+[12.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/armor_tracker': CMAKE_PREFIX_PATH=/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces:/home/rosnoetic/rm_shaobing_vision/install/rm_vision_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_buff_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver:/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description:/home/rosnoetic/rm_shaobing_vision/install/rm_buff:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim:/home/rosnoetic/rm_shaobing_vision/install/hik_camera:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker:/home/rosnoetic/rm_shaobing_vision/install/buff_detector:/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker:/home/rosnoetic/rm_shaobing_vision/install/armor_detector:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib:/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/rosnoetic/ros_ws/install/rm_serial_driver/lib:/home/rosnoetic/ros_ws/install/hik_camera/lib:/home/rosnoetic/ros_ws/install/armor_tracker/lib:/home/rosnoetic/ros_ws/install/armor_detector/lib:/home/rosnoetic/ros_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/armor_tracker -- -j16 -l16
+[12.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/rm_serial_driver': CMAKE_PREFIX_PATH=/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces:/home/rosnoetic/rm_shaobing_vision/install/rm_vision_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_buff_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver:/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description:/home/rosnoetic/rm_shaobing_vision/install/rm_buff:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim:/home/rosnoetic/rm_shaobing_vision/install/hik_camera:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker:/home/rosnoetic/rm_shaobing_vision/install/buff_detector:/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker:/home/rosnoetic/rm_shaobing_vision/install/armor_detector:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib:/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/rosnoetic/ros_ws/install/rm_serial_driver/lib:/home/rosnoetic/ros_ws/install/hik_camera/lib:/home/rosnoetic/ros_ws/install/armor_tracker/lib:/home/rosnoetic/ros_ws/install/armor_detector/lib:/home/rosnoetic/ros_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/rm_serial_driver -- -j16 -l16
+[24.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/armor_tracker' returned '2': CMAKE_PREFIX_PATH=/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces:/home/rosnoetic/rm_shaobing_vision/install/rm_vision_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_buff_bringup:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver:/home/rosnoetic/rm_shaobing_vision/install/rm_gimbal_description:/home/rosnoetic/rm_shaobing_vision/install/rm_buff:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_aim:/home/rosnoetic/rm_shaobing_vision/install/hik_camera:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker:/home/rosnoetic/rm_shaobing_vision/install/buff_detector:/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker:/home/rosnoetic/rm_shaobing_vision/install/armor_detector:/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rosnoetic/rm_shaobing_vision/install/auto_aim_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_serial_driver/lib:/home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib:/home/rosnoetic/rm_shaobing_vision/install/hik_camera/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_detector/lib:/home/rosnoetic/rm_shaobing_vision/install/buff_interfaces/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib:/home/rosnoetic/rm_shaobing_vision/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/rosnoetic/ros_ws/install/rm_serial_driver/lib:/home/rosnoetic/ros_ws/install/hik_camera/lib:/home/rosnoetic/ros_ws/install/armor_tracker/lib:/home/rosnoetic/ros_ws/install/armor_detector/lib:/home/rosnoetic/ros_ws/install/auto_aim_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/armor_tracker -- -j16 -l16
+[24.950s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(armor_tracker)
+[24.950s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker' for CMake module files
+[24.951s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker' for CMake config files
+[24.951s] Level 1:colcon.colcon_core.shell:create_environment_hook('armor_tracker', 'cmake_prefix_path')
+[24.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/share/armor_tracker/hook/cmake_prefix_path.ps1'
+[24.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/share/armor_tracker/hook/cmake_prefix_path.dsv'
+[24.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/share/armor_tracker/hook/cmake_prefix_path.sh'
+[24.955s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib'
+[24.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('armor_tracker', 'ld_library_path_lib')
+[24.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/share/armor_tracker/hook/ld_library_path_lib.ps1'
+[24.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/share/armor_tracker/hook/ld_library_path_lib.dsv'
+[24.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/share/armor_tracker/hook/ld_library_path_lib.sh'
+[24.958s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/bin'
+[24.959s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib/pkgconfig/armor_tracker.pc'
+[24.959s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/lib/python3.10/site-packages'
+[24.959s] Level 1:colcon.colcon_core.environment:checking '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/bin'
+[24.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/share/armor_tracker/package.ps1'
+[24.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/share/armor_tracker/package.dsv'
+[24.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/share/armor_tracker/package.sh'
+[24.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/share/armor_tracker/package.bash'
+[24.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/share/armor_tracker/package.zsh'
+[24.965s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rosnoetic/rm_shaobing_vision/install/armor_tracker/share/colcon-core/packages/armor_tracker)
+[52.925s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[52.925s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[52.925s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[52.926s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[52.943s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[52.944s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[52.944s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[52.968s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[52.969s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosnoetic/rm_shaobing_vision/install/local_setup.ps1'
+[52.971s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rosnoetic/rm_shaobing_vision/install/_local_setup_util_ps1.py'
+[52.973s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosnoetic/rm_shaobing_vision/install/setup.ps1'
+[52.978s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosnoetic/rm_shaobing_vision/install/local_setup.sh'
+[52.979s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rosnoetic/rm_shaobing_vision/install/_local_setup_util_sh.py'
+[52.980s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosnoetic/rm_shaobing_vision/install/setup.sh'
+[52.983s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosnoetic/rm_shaobing_vision/install/local_setup.bash'
+[52.985s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosnoetic/rm_shaobing_vision/install/setup.bash'
+[52.988s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rosnoetic/rm_shaobing_vision/install/local_setup.zsh'
+[52.989s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rosnoetic/rm_shaobing_vision/install/setup.zsh'

@@ -1,0 +1,85 @@
+[0.008s] Invoking command in '/home/nuc/rm_vision_ws/build/armor_tracker': AMENT_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nuc/rm_vision_ws/src/rm_auto_aim/armor_tracker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuc/rm_vision_ws/install/armor_tracker
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.169s] -- Detecting C compiler ABI info - done
+[0.175s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.175s] -- Detecting C compile features
+[0.175s] -- Detecting C compile features - done
+[0.177s] -- Detecting CXX compiler ABI info
+[0.253s] -- Detecting CXX compiler ABI info - done
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.258s] -- Detecting CXX compile features
+[0.258s] -- Detecting CXX compile features - done
+[0.259s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.382s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.436s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.534s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.537s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.541s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.549s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.559s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.587s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.589s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.658s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.680s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.730s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.739s] -- Looking for pthread.h
+[0.827s] -- Looking for pthread.h - found
+[0.827s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.943s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.948s] -- Found Threads: TRUE  
+[1.175s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.176s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.177s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.295s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.326s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.326s] -- Configured cppcheck include dirs: /home/nuc/rm_vision_ws/src/rm_auto_aim/armor_tracker/include
+[1.327s] -- Configured cppcheck exclude dirs and/or files: 
+[1.327s] -- Added test 'lint_cmake' to check CMake code style
+[1.328s] -- Added test 'xmllint' to check XML markup files
+[1.329s] -- Added test 'clang_format' to check C / C++ code style
+[1.333s] -- Configuring done
+[1.360s] -- Generating done
+[1.363s] -- Build files have been written to: /home/nuc/rm_vision_ws/build/armor_tracker
+[1.386s] Invoked command in '/home/nuc/rm_vision_ws/build/armor_tracker' returned '0': AMENT_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nuc/rm_vision_ws/src/rm_auto_aim/armor_tracker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuc/rm_vision_ws/install/armor_tracker
+[1.389s] Invoking command in '/home/nuc/rm_vision_ws/build/armor_tracker': AMENT_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nuc/rm_vision_ws/build/armor_tracker -- -j16 -l16
+[1.477s] [ 16%] [32mBuilding CXX object CMakeFiles/armor_tracker.dir/src/extended_kalman_filter.cpp.o[0m
+[1.482s] [ 66%] [32mBuilding CXX object CMakeFiles/armor_tracker.dir/src/tracker.cpp.o[0m
+[1.482s] [ 66%] [32mBuilding CXX object CMakeFiles/armor_tracker.dir/src/tracker_node.cpp.o[0m
+[1.482s] [ 66%] [32mBuilding CXX object CMakeFiles/armor_tracker_node.dir/rclcpp_components/node_main_armor_tracker_node.cpp.o[0m
+[7.563s] [ 83%] [32m[1mLinking CXX executable armor_tracker_node[0m
+[8.104s] [ 83%] Built target armor_tracker_node
+[22.788s] [ 66%] [32m[1mLinking CXX shared library libarmor_tracker.so[0m
+[25.254s] [100%] Built target armor_tracker
+[25.274s] Invoked command in '/home/nuc/rm_vision_ws/build/armor_tracker' returned '0': AMENT_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nuc/rm_vision_ws/build/armor_tracker -- -j16 -l16
+[25.326s] Invoking command in '/home/nuc/rm_vision_ws/build/armor_tracker': AMENT_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nuc/rm_vision_ws/build/armor_tracker
+[25.339s] -- Install configuration: ""
+[25.340s] -- Execute custom install script
+[25.341s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/lib/armor_tracker/armor_tracker_node
+[25.358s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/include/armor_tracker/extended_kalman_filter.hpp
+[25.374s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/include/armor_tracker/tracker.hpp
+[25.388s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/include/armor_tracker/tracker_node.hpp
+[25.404s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/armor_tracker/environment/library_path.sh
+[25.419s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/armor_tracker/environment/library_path.dsv
+[25.432s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/lib/libarmor_tracker.so
+[25.449s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/ament_index/resource_index/package_run_dependencies/armor_tracker
+[25.464s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/ament_index/resource_index/parent_prefix_path/armor_tracker
+[25.479s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/armor_tracker/environment/ament_prefix_path.sh
+[25.495s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/armor_tracker/environment/ament_prefix_path.dsv
+[25.509s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/armor_tracker/environment/path.sh
+[25.524s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/armor_tracker/environment/path.dsv
+[25.538s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/armor_tracker/local_setup.bash
+[25.554s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/armor_tracker/local_setup.sh
+[25.569s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/armor_tracker/local_setup.zsh
+[25.586s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/armor_tracker/local_setup.dsv
+[25.600s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/armor_tracker/package.dsv
+[25.615s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/ament_index/resource_index/packages/armor_tracker
+[25.632s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/ament_index/resource_index/rclcpp_components/armor_tracker
+[25.645s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/armor_tracker/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.660s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/armor_tracker/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.674s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/armor_tracker/cmake/ament_cmake_export_libraries-extras.cmake
+[25.687s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/armor_tracker/cmake/armor_trackerConfig.cmake
+[25.700s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/armor_tracker/cmake/armor_trackerConfig-version.cmake
+[25.713s] -- Symlinking: /home/nuc/rm_vision_ws/install/armor_tracker/share/armor_tracker/package.xml
+[25.731s] Invoked command in '/home/nuc/rm_vision_ws/build/armor_tracker' returned '0': AMENT_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/nuc/rm_vision_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nuc/rm_vision_ws/build/armor_tracker

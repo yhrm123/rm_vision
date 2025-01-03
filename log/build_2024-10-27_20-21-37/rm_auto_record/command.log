@@ -1,0 +1,6 @@
+Invoking command in '/home/nuc/rm_vision_ws/build/rm_auto_record': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nuc/rm_vision_ws/src/rm_auto_record -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuc/rm_vision_ws/install/rm_auto_record
+Invoked command in '/home/nuc/rm_vision_ws/build/rm_auto_record' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nuc/rm_vision_ws/src/rm_auto_record -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuc/rm_vision_ws/install/rm_auto_record
+Invoking command in '/home/nuc/rm_vision_ws/build/rm_auto_record': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nuc/rm_vision_ws/build/rm_auto_record -- -j16 -l16
+Invoked command in '/home/nuc/rm_vision_ws/build/rm_auto_record' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nuc/rm_vision_ws/build/rm_auto_record -- -j16 -l16
+Invoking command in '/home/nuc/rm_vision_ws/build/rm_auto_record': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nuc/rm_vision_ws/build/rm_auto_record
+Invoked command in '/home/nuc/rm_vision_ws/build/rm_auto_record' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nuc/rm_vision_ws/build/rm_auto_record

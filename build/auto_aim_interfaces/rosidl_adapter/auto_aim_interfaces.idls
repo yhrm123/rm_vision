@@ -1,0 +1,10 @@
+/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Armor.idl
+/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Armors.idl
+/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Target.idl
+/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugLight.idl
+/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugLights.idl
+/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugArmor.idl
+/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugArmors.idl
+/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/TrackerInfo.idl
+/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/TimeInfo.idl
+/home/rosnoetic/rm_shaobing_vision/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/TimeSeries.idl

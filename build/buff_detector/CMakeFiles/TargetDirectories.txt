@@ -1,0 +1,11 @@
+/home/rosnoetic/rm_shaobing_vision/build/buff_detector/CMakeFiles/uninstall.dir
+/home/rosnoetic/rm_shaobing_vision/build/buff_detector/CMakeFiles/buff_detector_uninstall.dir
+/home/rosnoetic/rm_shaobing_vision/build/buff_detector/CMakeFiles/buff_detector.dir
+/home/rosnoetic/rm_shaobing_vision/build/buff_detector/CMakeFiles/buff_detector_node.dir
+/home/rosnoetic/rm_shaobing_vision/build/buff_detector/CMakeFiles/test.dir
+/home/rosnoetic/rm_shaobing_vision/build/buff_detector/CMakeFiles/edit_cache.dir
+/home/rosnoetic/rm_shaobing_vision/build/buff_detector/CMakeFiles/rebuild_cache.dir
+/home/rosnoetic/rm_shaobing_vision/build/buff_detector/CMakeFiles/list_install_components.dir
+/home/rosnoetic/rm_shaobing_vision/build/buff_detector/CMakeFiles/install.dir
+/home/rosnoetic/rm_shaobing_vision/build/buff_detector/CMakeFiles/install/local.dir
+/home/rosnoetic/rm_shaobing_vision/build/buff_detector/CMakeFiles/install/strip.dir

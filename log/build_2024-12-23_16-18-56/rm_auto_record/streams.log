@@ -1,0 +1,37 @@
+[0.168s] Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/rm_auto_record': CMAKE_PREFIX_PATH=/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/rm_auto_record -- -j16 -l16
+[0.918s] [ 50%] Built target rm_auto_record
+[0.920s] [100%] Built target rm_auto_record_node
+[1.308s] Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/rm_auto_record' returned '0': CMAKE_PREFIX_PATH=/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/rosnoetic/rm_shaobing_vision/build/rm_auto_record -- -j16 -l16
+[2.194s] Invoking command in '/home/rosnoetic/rm_shaobing_vision/build/rm_auto_record': CMAKE_PREFIX_PATH=/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/rm_auto_record
+[2.294s] -- Install configuration: ""
+[2.302s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib/rm_auto_record/rm_auto_record_node
+[2.302s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/include
+[2.303s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/include/rm_auto_record
+[2.303s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/include/rm_auto_record/record_node.hpp
+[2.303s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/environment/library_path.sh
+[2.304s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/environment/library_path.dsv
+[2.304s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/lib/librm_auto_record.so
+[2.304s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/config
+[2.305s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/config/node_params.yaml
+[2.305s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/launch
+[2.306s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/launch/auto_record.launch.py
+[2.314s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/ament_index/resource_index/package_run_dependencies/rm_auto_record
+[2.314s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/ament_index/resource_index/parent_prefix_path/rm_auto_record
+[2.314s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/environment/ament_prefix_path.sh
+[2.315s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/environment/ament_prefix_path.dsv
+[2.315s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/environment/path.sh
+[2.315s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/environment/path.dsv
+[2.316s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/local_setup.bash
+[2.316s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/local_setup.sh
+[2.316s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/local_setup.zsh
+[2.316s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/local_setup.dsv
+[2.317s] -- Installing: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/package.dsv
+[2.317s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/ament_index/resource_index/packages/rm_auto_record
+[2.317s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/ament_index/resource_index/rclcpp_components/rm_auto_record
+[2.318s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.318s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.318s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/cmake/ament_cmake_export_libraries-extras.cmake
+[2.319s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/cmake/rm_auto_recordConfig.cmake
+[2.319s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/cmake/rm_auto_recordConfig-version.cmake
+[2.319s] -- Up-to-date: /home/rosnoetic/rm_shaobing_vision/install/rm_auto_record/share/rm_auto_record/package.xml
+[2.399s] Invoked command in '/home/rosnoetic/rm_shaobing_vision/build/rm_auto_record' returned '0': CMAKE_PREFIX_PATH=/home/rosnoetic/ros_ws/install/rm_vision_bringup:/home/rosnoetic/ros_ws/install/rm_serial_driver:/home/rosnoetic/ros_ws/install/rm_gimbal_description:/home/rosnoetic/ros_ws/install/hik_camera:/home/rosnoetic/ros_ws/install/armor_tracker:/home/rosnoetic/ros_ws/install/armor_detector:/home/rosnoetic/ros_ws/install/auto_aim_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/rosnoetic/rm_shaobing_vision/build/rm_auto_record

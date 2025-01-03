@@ -1,0 +1,7 @@
+[ 40%] Built target rm_serial_driver_node
+[ 60%] [32mBuilding CXX object CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library librm_serial_driver.so[0m
+gmake[2]: *** 正在删除文件“librm_serial_driver.so”
+gmake[2]: *** [CMakeFiles/rm_serial_driver.dir/build.make:312: librm_serial_driver.so] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/rm_serial_driver.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

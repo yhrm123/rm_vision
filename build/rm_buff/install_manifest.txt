@@ -1,0 +1,15 @@
+/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/ament_index/resource_index/package_run_dependencies/rm_buff
+/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/ament_index/resource_index/parent_prefix_path/rm_buff
+/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/environment/ament_prefix_path.sh
+/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/environment/ament_prefix_path.dsv
+/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/environment/path.sh
+/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/environment/path.dsv
+/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/local_setup.bash
+/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/local_setup.sh
+/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/local_setup.zsh
+/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/local_setup.dsv
+/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/package.dsv
+/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/ament_index/resource_index/packages/rm_buff
+/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/cmake/rm_buffConfig.cmake
+/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/cmake/rm_buffConfig-version.cmake
+/home/rosnoetic/rm_shaobing_vision/install/rm_buff/share/rm_buff/package.xml
